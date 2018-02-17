@@ -1,0 +1,10 @@
+
+.df-main-content {
+    .row {
+        padding: 3em 0;
+
+        div[class^='col-'] {
+            margin-bottom: 2em;
+        }
+    }
+}

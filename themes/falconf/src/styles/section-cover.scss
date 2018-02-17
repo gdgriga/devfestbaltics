@@ -1,0 +1,32 @@
+@import 'colors.scss';
+
+.df-cover {
+    padding-top: 1.5em;
+    height: 80vh;
+    // background-image: url('/images/cover.jpg');
+    background-size: cover;
+
+    .df-logo {
+        margin-bottom: 3em;
+        height: 6em;
+        transform: translate(-2.7em);
+    }
+
+    h1 {
+        span {
+            display: block;
+            color: $sakura-pink;
+            
+        }
+
+        .df-date {
+            color: $punk-pink;
+            -webkit-text-decoration-color: $sakura-pink;   
+            text-decoration-color: $sakura-pink;
+        }
+
+        .df-slogan {
+            text-decoration: none;
+        }
+    }
+}
