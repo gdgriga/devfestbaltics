@@ -3,6 +3,7 @@ window.Popper = require('popper.js')
 require('bootstrap')
 
 import './index.scss'
+import './js/sidebar'
 
 console.log("world!")
 

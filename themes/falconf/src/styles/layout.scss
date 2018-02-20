@@ -1,10 +1,34 @@
+@import 'mixins.scss';
 
-.df-main-content {
-    .row {
-        padding: 3em 0;
+#df-wrapper {
+    padding: 0;
+    @include transition(all 0.5s ease);
 
-        div[class^='col-'] {
-            margin-bottom: 2em;
+    .df-main-content {
+    
+        .row {
+            padding: 3em 0;
+    
+            div[class^='col-'] {
+                margin-bottom: 2em;
+            }
+        }
+    }
+
+    .df-page-content {
+        width: 100%;
+        position: absolute;
+        @include transition(padding 0.5s ease);
+    }
+
+    &.toggled {
+        .df-page-content {
+            position: absolute;
+            padding-left: 10em;   
         }
     }
 }
+
+
+
+
