@@ -1,12 +1,12 @@
 @import 'colors.scss';
 
 .df-section-videos {
-    background: $sakura-pink;
-    color: $punk-pink;
+    // background: $sakura-pink;
+    // color: $punk-pink;
 
     a {
         text-decoration: none;
-        color: $punk-pink;
+        color: inherit;
     }
 
     .df-video-container {

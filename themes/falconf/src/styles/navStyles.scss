@@ -1,12 +1,16 @@
 @import 'colors.scss';
 @import 'mixins.scss';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+$nav-bar-width: 10em;
 
 #df-sidebar-wrapper {
-    z-index: 1;
+    z-index: 2;
     overflow-y: auto;
     position: fixed;
     width: 0;
     height: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     @include transition(width 0.5s ease);
 
     .df-sidebar-nav {
@@ -16,40 +20,48 @@
         list-style: none;
         display: none;
 
-        li {
-            padding: 1em 0;
-
             a {
+                padding: 1em 0;
                 font-family: 'Roboto Mono', monospace;
                 font-weight: 500;
                 font-size: 1.2rem;
                 text-decoration: underline;
                 text-transform: uppercase;
+                color: inherit;
+                display: block;
     
-                &:hover {
+                &:hover, &.active {
                     text-decoration: none;
                 }
             }
-        }
     }
 }
 
-.df-nav-arrow {
+.df-nav-arrow-box {
     position: fixed;
-    height: 2em;
+    margin-left: 0em;
     margin-top: 1em;
     z-index: 1;
     @include transition(transform 0.5s ease);
+
+    .df-nav-arrow { 
+        height: 2em;
+        @include transition(transform 0.5s ease);
+    }
 }
 
-#df-wrapper.toggled {
 
-    .df-nav-arrow {
-        transform: rotate(180deg);
+#df-wrapper.toggled {
+    .df-nav-arrow-box {
+        margin-left: calc(#{$nav-bar-width} - 2em);
+
+        .df-nav-arrow {
+            transform: rotate(180deg);
+        }
     }
 
     #df-sidebar-wrapper {
-        width: 10em;
+        width: $nav-bar-width;
 
         .df-sidebar-nav {
             display: block;
@@ -57,3 +69,10 @@
     }
 }
  
+@include media-breakpoint-up(lg) {
+    #df-sidebar-wrapper {
+        box-shadow: none;
+    }  
+}
+
+

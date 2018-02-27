@@ -5,11 +5,10 @@
 @import 'colors.scss';
 
 .df-section-tweets {
-    background: $navy-blue;
-    color: $winter-sky-blue;
 
     .df-tweet-frame {
-        border: 0.2em solid rgba(225, 245, 254, 0.45);
+        border: 0.2em solid;
+        border-color: rgba(225, 245, 254, 0.45);
         width: 100%;
         padding: 1em;
 
@@ -33,8 +32,9 @@
 
             a {
                 text-decoration: none;
-                color: $winter-sky-blue;
+                color: inherit;
                 opacity: 0.5;
+
             }
         }
     }

@@ -4,6 +4,7 @@ require('bootstrap')
 
 import './index.scss'
 import './js/sidebar'
+import './js/scrollspy'
 
 console.log("world!")
 

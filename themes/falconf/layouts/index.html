@@ -20,32 +20,27 @@
 </head>
 
 <body>
-  <div id="df-wrapper" class="toggled">
+  <div id="df-wrapper" class="">
 
       <div id="df-sidebar-wrapper">
-          <ul class="df-sidebar-nav">
-              <li>
-                  <a href="#about">About</a>
-              </li>
-              <li>
-                  <a href="#previous-event">Previous event</a>
-              </li>
-              <li>
-                  <a href="#subscribe">Subscribe for news</a>
-              </li>
-          </ul>
+          <nav class="df-sidebar-nav">
+            <a href="#about">About</a>
+            <a href="#previous-event">Previous event</a>
+            <a href="#subscribe">Subscribe for news</a>
+          <nav>
       </div>
+      <a href class="df-nav-arrow-box" data-toggle="sidebar">
+        <img class="df-nav-arrow" src="/images/nav-icon/arrow_right_white.svg" alt="" />
+      </a>
 
-    <div class="df-page-content">
-      <div class="container-fluid">
-          <a href data-toggle="sidebar">
-            <img class="df-nav-arrow" src="/images/nav-icon/arrow_right_white.svg" alt="" />
-          </a>
+    <div class="df-page-content" >
+      <div class="container-fluid" >
+          
         <!-- Section: Cover -->
-        <div class="row">
+        <div class="row scroll-class df-gray" id="cover">
           <div class="col-12 df-cover">
             <div class="row">
-              <div class="col-5 offset-2">
+              <div class="col-8 col-lg-5 offset-2">
                 <img src="/images/logo.png" alt="DevFest Baltics Logo" class="df-logo" />
                 <h1>
                   <span class="df-date">NOVEMBER 16</span>
@@ -55,11 +50,12 @@
             </div>
           </div>
         </div>
-
-
+      </div>
+      <div class="container" >
+      
         <div class="df-main-content">
           <!-- Section: About -->
-          <div class="row df-section-about" id="about">
+          <div class="row df-section-about scroll-class" id="about">
             <div class="col-12 col-md-4">
               <h1>WHAT YOU NEED TO KNOW</h1>
               <p>DevFest Baltics is the first conference in the Baltics packed with topics about mobile development and carefully
@@ -76,14 +72,24 @@
           </div>
 
           <!-- Section: Last year videos -->
-          <div class="row df-section-videos" id="previous-event">
+          <div class="row df-section-videos scroll-class" id="previous-event">
             <div class="col-12">
               <h1>HOW IT WAS LAST YEAR</h1>
             </div>
             <div class="col-12 col-md-4">
-              <a href="https://youtu.be/ZjGCeWZcHPE">
+              <a href="https://youtu.be/ZjGCeWZcHPE" target="_blank">
                 <div class="df-video-container">
-                  <img class="df-play-icon" src="/images/icon-play.png" alt="">
+                  <img class="df-video-preview df-gray" src="/images/2.jpg" alt="">
+                </div>
+                <h2>Anastasiia Vixentael</h2>
+              </a>
+              <a href="https://twitter.com/vixentael" target="_blank">
+                <span class="df-tag">@vixentael</span>
+              </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://youtu.be/ZjGCeWZcHPE" target="_blank">
+                <div class="df-video-container">
                   <img class="df-video-preview" src="/images/2.jpg" alt="">
                 </div>
                 <h2>Anastasiia Vixentael</h2>
@@ -93,33 +99,20 @@
               </a>
             </div>
             <div class="col-12 col-md-4">
-              <a href="https://youtu.be/ZjGCeWZcHPE">
+              <a href="https://youtu.be/ZjGCeWZcHPE" target="_blank">
                 <div class="df-video-container">
-                  <img class="df-play-icon" src="/images/icon-play.png" alt="">
                   <img class="df-video-preview" src="/images/2.jpg" alt="">
                 </div>
                 <h2>Anastasiia Vixentael</h2>
               </a>
-              <a href="https://twitter.com/vixentael">
-                <span class="df-tag">@vixentael</span>
-              </a>
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="https://youtu.be/ZjGCeWZcHPE">
-                <div class="df-video-container">
-                  <img class="df-play-icon" src="/images/icon-play.png" alt="">
-                  <img class="df-video-preview" src="/images/2.jpg" alt="">
-                </div>
-                <h2>Anastasiia Vixentael</h2>
-              </a>
-              <a href="https://twitter.com/vixentael">
+              <a href="https://twitter.com/vixentael"target="_blank">
                 <span class="df-tag">@vixentael</span>
               </a>
             </div>
           </div>
 
           <!-- Section: Tweets -->
-          <div class="row df-section-tweets">
+          <div class="row df-section-tweets scroll-class" id="tweets">
             <div class="col-12">
               <h1>What people say</h1>
             </div>
@@ -128,7 +121,7 @@
                 <img src="/images/leiva.jpg" alt="">
                 <div class="df-tweet-heading">
                   <h2>Antonio Leiva</h2>
-                  <a href="https://twitter.com/vixentael">
+                  <a href="https://twitter.com/vixentael" target="_blank">
                     <span class="df-tag">@vixentael</span>
                   </a>
                 </div>
@@ -141,7 +134,7 @@
                 <img src="/images/leiva.jpg" alt="">
                 <div class="df-tweet-heading">
                   <h2>Antonio Leiva</h2>
-                  <a href="https://twitter.com/vixentael">
+                  <a href="https://twitter.com/vixentael" target="_blank">
                     <span class="df-tag">@vixentael</span>
                   </a>
                 </div>
@@ -154,8 +147,8 @@
                 <img src="/images/leiva.jpg" alt="">
                 <div class="df-tweet-heading">
                   <h2>Antonio Leiva</h2>
-                  <a href="https://twitter.com/vixentael">
-                    <span class="df-tag">@vixentael</span>
+                  <a href="https://twitter.com/vixentael" target="_blank">
+                    <span class="df-tag">@vixentael</span> 
                   </a>
                 </div>
                 <p>“ It was awesome in many ways, but specially because of how the organizers treated us the speakers. I had
@@ -165,13 +158,13 @@
           </div>
 
           <!-- Section: Figures -->
-          <div class="row df-section-figures">
+          <div class="row df-section-figures scroll-class" id="about-previous">
             <div class="col-12 col-md-6 df-sm-article">
               <h2>Some title</h2>
               <p>It was awesome in many ways, but specially because of how the organizers treated us the speakers. I had never
                 felt so warm.</p>
             </div>
-            <div class="col-12 col-lg-6">
+            <!-- <div class="col-12 col-lg-6">
               <div class="row df-figures-container">
                 <div class="col-6">
                   <span class="df-big-numbers">250</span>
@@ -190,27 +183,27 @@
                   <span>attendies</span>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <!-- Section: Photos -->
-          <div class="row df-section-photos">
+          <div class="row df-section-photos scroll-class" id="photos">
             <div class="col-12">
-              <img src="/images/1.jpg" alt="">
+              <img class="df-gray" src="/images/1.jpg" alt="">
             </div>
             <div class="col-12 col-md-4">
-              <img src="/images/2.jpg" alt="">
+              <img class="df-gray" src="/images/2.jpg" alt="">
             </div>
             <div class="col-12 col-md-4">
-              <img src="/images/2.jpg" alt="">
+              <img class="df-gray" src="/images/2.jpg" alt="">
             </div>
             <div class="col-12 col-md-4">
-              <img src="/images/2.jpg" alt="">
+              <img class="df-gray" src="/images/2.jpg" alt="">
             </div>
           </div>
 
           <!-- Section: Subscribe -->
-          <div class="row df-footer" id="subscribe">
+          <div class="row df-footer scroll-class" id="subscribe">
             <div class="col-12">
               <h2>Subcribe for news</h2>
             </div>
