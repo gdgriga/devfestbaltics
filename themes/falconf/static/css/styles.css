@@ -6060,7 +6060,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   margin-left: 0em;
   margin-top: 1em;
-  z-index: 1;
+  z-index: 2;
   -webkit-transition: transform 0.5s ease;
   -moz-transition: transform 0.5s ease;
   -ms-transition: transform 0.5s ease;
@@ -6115,7 +6115,7 @@ p,
 span {
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 1.25em; }
+  line-height: 1.5em; }
 
 .df-big-numbers {
   font-family: 'Roboto Mono', monospace;
@@ -6241,8 +6241,8 @@ body {
   -o-transition: background 1s ease;
   transition: background 1s ease; }
   body #df-sidebar-wrapper {
-    background: #020203;
-    color: #ffffff;
+    background: #9C27B0;
+    color: #FFC6D5;
     -webkit-transition: background 1s ease;
     -moz-transition: background 1s ease;
     -ms-transition: background 1s ease;

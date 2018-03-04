@@ -1,10 +1,4 @@
 
-
-// $('[data-spy="scroll"]').each(function () {
-//     var $spy = $(this).scrollspy('refresh')
-//   })
-
-  // $('body').scrollspy({ target: '#df-sidebar-wrapper' })
 window.$ = window.jQuery = require('jquery')
 var scrollspy = require('scrollspy')
  
@@ -20,6 +14,7 @@ $('.scroll-class').each(function() {
                 $("body").removeClass();
                 break;
               case "about":
+                if ($("body").scrollTop() === 0 ) $("body").removeClass();
                 $("body").addClass("active-about");
                 break;
               case "previous-event":

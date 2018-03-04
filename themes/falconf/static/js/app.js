@@ -13432,9 +13432,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_sidebar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_sidebar__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_scrollspy__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_scrollspy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__js_scrollspy__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_smoothScroll__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_smoothScroll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__js_smoothScroll__);
 window.$ = window.jQuery = __webpack_require__(2);
 window.Popper = __webpack_require__(9);
 __webpack_require__(14);
+
 
 
 
@@ -17370,12 +17373,6 @@ Object.defineProperty(exports, '__esModule', { value: true });
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {
-
-// $('[data-spy="scroll"]').each(function () {
-//     var $spy = $(this).scrollspy('refresh')
-//   })
-
-// $('body').scrollspy({ target: '#df-sidebar-wrapper' })
 window.$ = window.jQuery = __webpack_require__(2);
 var scrollspy = __webpack_require__(18);
 
@@ -17390,6 +17387,7 @@ $('.scroll-class').each(function () {
           $("body").removeClass();
           break;
         case "about":
+          if ($("body").scrollTop() === 0) $("body").removeClass();
           $("body").addClass("active-about");
           break;
         case "previous-event":
@@ -20168,6 +20166,34 @@ function makeArray(arr, sep) {
 	return []
 }
 
+
+/***/ }),
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {window.$ = window.jQuery = __webpack_require__(2);
+
+$(document).ready(function () {
+  $("a").on('click', function (event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function () {
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ })
 /******/ ]);

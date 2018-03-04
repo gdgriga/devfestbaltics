@@ -8,8 +8,8 @@ body {
     @include transition(background 1s ease);
 
     #df-sidebar-wrapper {
-        background: $almost-black;
-        color:  $ideal-white;
+        background: $purple;
+        color:  $sakura-pink;
         @include transition(background 1s ease);
     }
 
