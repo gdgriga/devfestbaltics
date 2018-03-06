@@ -6042,6 +6042,7 @@ a.text-dark:hover, a.text-dark:focus {
     position: absolute;
     margin: 0;
     padding: 1em;
+    width: 10em;
     list-style: none;
     display: none; }
     #df-sidebar-wrapper .df-sidebar-nav a {
@@ -6076,11 +6077,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 #df-wrapper.toggled .df-nav-arrow-box {
   margin-left: calc(10em - 2em); }
+  @media (min-width: 1200px) {
+    #df-wrapper.toggled .df-nav-arrow-box {
+      margin-left: calc(15em - 2em); } }
   #df-wrapper.toggled .df-nav-arrow-box .df-nav-arrow {
     transform: rotate(180deg); }
 
 #df-wrapper.toggled #df-sidebar-wrapper {
   width: 10em; }
+  @media (min-width: 1200px) {
+    #df-wrapper.toggled #df-sidebar-wrapper {
+      width: 15em; } }
   #df-wrapper.toggled #df-sidebar-wrapper .df-sidebar-nav {
     display: block; }
 
@@ -6128,6 +6135,9 @@ span {
   height: 100vh;
   margin-bottom: 3em;
   background-size: cover; }
+  .df-cover .df-title {
+    padding: 2em 4em;
+    background: rgba(0, 0, 0, 0.6); }
   .df-cover .df-logo {
     margin-bottom: 3em;
     height: 4em;
@@ -6222,7 +6232,11 @@ span {
     border: 3px solid #FFC6D5;
     background: transparent;
     width: 50%;
-    margin-right: 1em; }
+    margin-right: 1em;
+    padding: 0.5em; }
+    .df-subscribe-form input[type=text]:focus {
+      box-shadow: none;
+      outline: none; }
   .df-subscribe-form input[type=submit] {
     width: 7.5em;
     background: inherit;
@@ -6322,3 +6336,6 @@ body {
       body #df-wrapper.toggled .df-page-content {
         position: absolute;
         padding-left: 10em; } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    body #df-wrapper.toggled .df-page-content {
+      padding-left: 15em; } }

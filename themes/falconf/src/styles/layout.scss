@@ -136,8 +136,14 @@ body {
             &.toggled {
                 .df-page-content {
                     position: absolute;
-                    padding-left: 10em;   
+                    padding-left: 10em; 
+
+                    @include media-breakpoint-up(xl) {
+                        padding-left: 15em;
+                    }
                 }
+
+                
             }
         }
     }

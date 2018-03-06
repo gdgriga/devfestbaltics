@@ -2,8 +2,6 @@
 @import 'mixins.scss';
 @import '~bootstrap/scss/mixins/_breakpoints';
 
-$nav-bar-width: 10em;
-
 #df-sidebar-wrapper {
     z-index: 2;
     overflow-y: auto;
@@ -17,6 +15,7 @@ $nav-bar-width: 10em;
         position: absolute;
         margin: 0;
         padding: 1em;
+        width: 10em;
         list-style: none;
         display: none;
 
@@ -53,7 +52,11 @@ $nav-bar-width: 10em;
 
 #df-wrapper.toggled {
     .df-nav-arrow-box {
-        margin-left: calc(#{$nav-bar-width} - 2em);
+        margin-left: calc(10em - 2em);
+
+        @include media-breakpoint-up(xl) {
+            margin-left: calc(15em - 2em);
+        }
 
         .df-nav-arrow {
             transform: rotate(180deg);
@@ -61,7 +64,11 @@ $nav-bar-width: 10em;
     }
 
     #df-sidebar-wrapper {
-        width: $nav-bar-width;
+        width: 10em;
+
+        @include media-breakpoint-up(xl) {
+            width: 15em;
+        }
 
         .df-sidebar-nav {
             display: block;

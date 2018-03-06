@@ -1,8 +1,6 @@
 @import 'colors.scss';
 
 .df-footer {
-    // background: $punk-pink;
-    // color: $sakura-pink;
 
     .df-social-icons {
         margin-top: 1em;
@@ -40,6 +38,12 @@
         background: transparent;
         width: 50%;
         margin-right: 1em;
+        padding: 0.5em;
+
+        &:focus {
+            box-shadow: none;
+            outline: none;
+        }
     }
 
     input[type=submit] {

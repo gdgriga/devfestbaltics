@@ -15,16 +15,16 @@ $('.scroll-class').each(function() {
                 break;
               case "about":
                 if ($("body").scrollTop() === 0 ) $("body").removeClass();
-                $("body").addClass("active-about");
+                // $("body").addClass("active-about");
                 break;
               case "previous-event":
-                $("body").addClass("active-previous-videos");
+                $("body").addClass("active-about");
                 break;
               case "tweets":
-                $("body").addClass("active-tweets");
+                $("body").addClass("active-previous-videos");
                 break;
               case "about-previous":
-                $("body").addClass("active-about-previous");
+                $("body").addClass("active-tweets");
                 break;
               case "photos":
                 $("body").addClass("active-about-previous");

@@ -92,31 +92,6 @@ function _(val) {
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var cou = __webpack_require__(10)
-
-module.exports = cou.extend(_, cou)
-
-__webpack_require__(30)
-__webpack_require__(31)
-__webpack_require__(32)
-__webpack_require__(34)
-__webpack_require__(35)
-__webpack_require__(36)
-
-_.mixin(_, _)
-
-function _(val) {
-	if (!(this instanceof _)) return new _(val)
-	this.__value = val
-	this.__chain = false
-}
-
-
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
@@ -10485,6 +10460,31 @@ return jQuery;
 
 
 /***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var cou = __webpack_require__(10)
+
+module.exports = cou.extend(_, cou)
+
+__webpack_require__(30)
+__webpack_require__(31)
+__webpack_require__(32)
+__webpack_require__(34)
+__webpack_require__(35)
+__webpack_require__(36)
+
+_.mixin(_, _)
+
+function _(val) {
+	if (!(this instanceof _)) return new _(val)
+	this.__value = val
+	this.__chain = false
+}
+
+
+
+/***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
@@ -10515,7 +10515,7 @@ module.exports = g;
 /* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(1)
+module.exports = __webpack_require__(2)
 
 /* webpack only
 if (DEBUG && global.console) {
@@ -13432,9 +13432,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_sidebar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_sidebar__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_scrollspy__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_scrollspy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__js_scrollspy__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_smoothScroll__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_smoothScroll__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_smoothScroll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__js_smoothScroll__);
-window.$ = window.jQuery = __webpack_require__(2);
+window.$ = window.jQuery = __webpack_require__(1);
 window.Popper = __webpack_require__(9);
 __webpack_require__(14);
 
@@ -13450,7 +13450,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 });
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
 /* 14 */
@@ -13462,7 +13462,7 @@ $(function () {
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-	 true ? factory(exports, __webpack_require__(2), __webpack_require__(9)) :
+	 true ? factory(exports, __webpack_require__(1), __webpack_require__(9)) :
 	typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
 	(factory((global.bootstrap = {}),global.jQuery,global.Popper));
 }(this, (function (exports,$,Popper) { 'use strict';
@@ -17366,14 +17366,14 @@ Object.defineProperty(exports, '__esModule', { value: true });
     e.preventDefault();
     $("#df-wrapper").toggleClass("toggled");
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {
-window.$ = window.jQuery = __webpack_require__(2);
+window.$ = window.jQuery = __webpack_require__(1);
 var scrollspy = __webpack_require__(18);
 
 $('.scroll-class').each(function () {
@@ -17388,16 +17388,16 @@ $('.scroll-class').each(function () {
           break;
         case "about":
           if ($("body").scrollTop() === 0) $("body").removeClass();
-          $("body").addClass("active-about");
+          // $("body").addClass("active-about");
           break;
         case "previous-event":
-          $("body").addClass("active-previous-videos");
+          $("body").addClass("active-about");
           break;
         case "tweets":
-          $("body").addClass("active-tweets");
+          $("body").addClass("active-previous-videos");
           break;
         case "about-previous":
-          $("body").addClass("active-about-previous");
+          $("body").addClass("active-tweets");
           break;
         case "photos":
           $("body").addClass("active-about-previous");
@@ -17436,7 +17436,7 @@ $('.scroll-class').each(function () {
     }
   });
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 18 */
@@ -18843,7 +18843,7 @@ proto.getLevelFunction = function(level) {
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 
 var each = _.each
 var includes = _.includes
@@ -19096,7 +19096,7 @@ _.fill = function(val, start, end) {
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 
 var is = _.is
 var each = _.each
@@ -19287,7 +19287,7 @@ function toPath(val) {
 /* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 
 var is = _.is
 var slice = _.slice
@@ -19462,7 +19462,7 @@ _.curry = function(fn) {
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = __webpack_require__(1)
+var _ = __webpack_require__(2)
 var is = _.is
 
 module.exports = Cache
@@ -19494,7 +19494,7 @@ proto['delete'] = function(key) {
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 var is = _.is
 
 _.now = function() {
@@ -19562,7 +19562,7 @@ _.value = function() {
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 
 _.tostr = tostr // lodash toString
 
@@ -19647,7 +19647,7 @@ function tostr(str) {
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _ = module.exports = __webpack_require__(1)
+var _ = module.exports = __webpack_require__(2)
 
 _.sum = function(arr) {
 	return _.reduce(arr, function(sum, val) {
@@ -20168,14 +20168,10 @@ function makeArray(arr, sep) {
 
 
 /***/ }),
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {window.$ = window.jQuery = __webpack_require__(2);
+/* WEBPACK VAR INJECTION */(function($) {window.$ = window.jQuery = __webpack_require__(1);
 
 $(document).ready(function () {
   $("a").on('click', function (event) {
@@ -20193,7 +20189,7 @@ $(document).ready(function () {
     }
   });
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ })
 /******/ ]);
