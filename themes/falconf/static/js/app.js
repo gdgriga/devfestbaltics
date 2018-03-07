@@ -17388,16 +17388,19 @@ $('.scroll-class').each(function () {
           break;
         case "about":
           if ($("body").scrollTop() === 0) $("body").removeClass();
-          // $("body").addClass("active-about");
-          break;
-        case "previous-event":
           $("body").addClass("active-about");
           break;
-        case "tweets":
+        case "figures":
+          $("body").addClass("active-about");
+          break;
+        case "previous-event":
           $("body").addClass("active-previous-videos");
           break;
-        case "about-previous":
+        case "tweets":
           $("body").addClass("active-tweets");
+          break;
+        case "about-previous":
+          $("body").addClass("active-about-previous");
           break;
         case "photos":
           $("body").addClass("active-about-previous");
@@ -17422,9 +17425,6 @@ $('.scroll-class').each(function () {
           $("body").removeClass("active-tweets");
           break;
         case "about-previous":
-          $("body").removeClass("active-about-previous");
-          break;
-        case "photos":
           $("body").removeClass("active-about-previous");
           break;
         case "subscribe":
