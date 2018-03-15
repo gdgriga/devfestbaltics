@@ -28,9 +28,15 @@
 .df-subscribe-form {
     margin-bottom: 3em;
 
+    @include media-breakpoint-down(md) {
+        display: flex;
+        flex-direction: column;
+    }
+
     input {
         height: 2.5em;
         color: inherit;
+        margin: 0.5em 0;
     }
 
     input[type=text] {
@@ -43,6 +49,10 @@
         &:focus {
             box-shadow: none;
             outline: none;
+        }
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
         }
     }
 
