@@ -18,5 +18,6 @@ deploy:
   provider: firebase
   token: "${FIREBASE_DEPLOY_TOKEN}"
   project: devfest-baltics-2018
+  skip_cleanup: true
   on:
     branch: master
