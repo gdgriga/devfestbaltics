@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+@import 'colors.scss';
+
+.df-section-tweets {
+
+    .df-tweet-frame {
+        border: 0.2em solid;
+        border-color: rgba(225, 245, 254, 0.45);
+        width: 100%;
+        padding: 1em;
+
+        img {
+            width: 30%;
+            filter: grayscale(100%);
+            margin-right: 5%;
+            float: left;
+        }
+
+        @include media-breakpoint-down(md) {
+            img {
+                width: 20%;
+            }
+        }
+
+        .df-tweet-heading {
+            display: inline-block;
+            width: 60%;
+            margin-bottom: 0.5em;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                opacity: 0.5;
+
+            }
+        }
+    }
+}
+

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700');
+
+html, body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.df-tag {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+p,
+span {
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.df-big-numbers {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 3.5em;
+    display: block;
+}
+
+#copyright {
+    opacity: 0.7;
+}

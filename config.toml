@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "DevFest Baltics 2018"
+
+disableRSS = true
+theme = "falconf"

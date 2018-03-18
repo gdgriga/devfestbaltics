@@ -1,0 +1,9 @@
+{
+  "name": "devfestbaltics",
+  "description": "DevFest Baltics 2018 website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^3.17.6"
+  }
+}

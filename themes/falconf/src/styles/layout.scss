@@ -1,0 +1,154 @@
+@import 'mixins.scss';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+
+body {
+    background: $purple;
+    color:  $sakura-pink;
+    @include transition(background 1s ease);
+
+    #df-sidebar-wrapper {
+        background: $purple;
+        color:  $sakura-pink;
+        @include transition(background 1s ease);
+    }
+
+    &.active-about {
+        background: $purple;
+        color:  $sakura-pink;
+
+        #df-sidebar-wrapper {
+            background: $purple;
+            color:  $sakura-pink;
+        }
+
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(255, 198, 213, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
+    
+    &.active-previous-videos {
+        background: $sakura-pink;
+        color:  $punk-pink;
+
+        #df-sidebar-wrapper {
+            background: $sakura-pink;
+            color:  $punk-pink;
+        }
+
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(255, 64, 129, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
+
+    &.active-tweets {
+        background: $navy-blue;
+        color:  $winter-sky-blue;
+
+        #df-sidebar-wrapper {
+            background: $navy-blue;
+            color:  $winter-sky-blue;
+        }
+        
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(225, 245, 254, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
+
+    &.active-about-previous {
+        background: $ideal-white;
+        color:  $almost-black;
+
+        #df-sidebar-wrapper {
+            background: $ideal-white;
+            color:  $almost-black;
+        }
+
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(2, 2, 3, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: none !important;
+        }
+    }
+
+    &.active-subscribe {
+        background: $punk-pink;
+        color:  $sakura-pink;
+
+        #df-sidebar-wrapper {
+            background: $punk-pink;
+            color:  $sakura-pink;
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
+
+    #df-wrapper {
+        padding: 0;
+        @include transition(all 0.5s ease);
+
+        .df-main-content {
+        
+            .row {
+                padding: 3em 0;
+
+                @include media-breakpoint-up(md) {
+                    padding: 6em 0;
+                }
+        
+                div[class^='col-'] {
+                    margin-bottom: 2em;
+                }
+            }
+        }
+
+        .df-page-content {
+            width: 100%;
+            position: absolute;
+            @include transition(padding 0.5s ease);
+        }
+
+        @include media-breakpoint-up(lg) {
+            &.toggled {
+                .df-page-content {
+                    position: absolute;
+                    padding-left: 10em; 
+
+                    @include media-breakpoint-up(xl) {
+                        padding-left: 15em;
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
+
+
+
+

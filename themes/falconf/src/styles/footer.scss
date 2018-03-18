@@ -1,0 +1,68 @@
+@import 'colors.scss';
+
+.df-footer {
+
+    .df-social-icons {
+        margin-top: 1em;
+
+        img {
+            width: 1em;
+            margin-right: 0.5em;
+        }
+    }
+
+    .df-logos-container {
+        margin-top: 1em;
+
+        a {
+            display: block;
+            color: inherit;
+        }
+        
+        img {
+            margin: 0.5em 0;
+        }
+    }
+}
+
+.df-subscribe-form {
+    margin-bottom: 3em;
+
+    @include media-breakpoint-down(md) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        height: 2.5em;
+        color: inherit;
+        margin: 0.5em 0;
+    }
+
+    input[type=text] {
+        border: 3px solid $sakura-pink;
+        background: transparent;
+        width: 50%;
+        margin-right: 1em;
+        padding: 0.5em;
+
+        &:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+    }
+
+    input[type=submit] {
+        width: 7.5em;
+        background: inherit;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 500;
+        font-size: 0.9em;
+        border: 3px solid $sakura-pink;
+        box-sizing: content-box;
+    }
+}

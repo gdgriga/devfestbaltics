@@ -1,0 +1,30 @@
+@import 'colors.scss';
+
+.df-section-videos {
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .df-video-container {
+        width: 100%;
+        position: relative;
+
+        .df-play-icon {
+            opacity: 0.5;
+            position: absolute;
+            z-index: 1;
+            margin-left: 50%;
+            margin-top: 20%;
+            transform: translate(-50%);   
+        }
+    
+        .df-video-preview {
+            width: 100%;
+            margin-bottom: 1em;
+            filter: grayscale(100%);
+        }
+    }
+    
+}
