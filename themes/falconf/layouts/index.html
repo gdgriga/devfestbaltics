@@ -53,6 +53,12 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <script>
     // hack to unregister old service workers
+    // and caches
+    caches.keys(function(listOfKeys) {
+      listOfKeys.map(function(key) {
+        caches.delete(key);
+      });
+    });
     navigator.serviceWorker.getRegistrations().then(function(registrations) {
       for(let registration of registrations) {
         registration.unregister();
