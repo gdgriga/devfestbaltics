@@ -331,6 +331,14 @@
     </div>
 
     <script src="/js/app.js"></script>
+    <script>
+        // hack to unregister old service workers
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister();
+          }
+        });
+    </script>
 </body>
 
 </html>
