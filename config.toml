@@ -1,6 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "http://devfest.gdg.lv/"
 languageCode = "en-us"
 title = "DevFest Baltics 2018"
-
 disableRSS = true
 theme = "falconf"
+
+[params]
+    description = "DevFest Baltics is the first conference in the Baltics packed with topics about mobile development and carefully crafted for you by GDG Baltics community! All about mobile development, Android and iOS, Mobile Crossplatform tools, UI/UX and prototyping, Internet of Things, VR and AR, bots, AI and more"
+    themeColor = "#651fff"
+    googleAnalytics = "UA-102993739-2"
+
+[social]
+    shareImage = "/images/social-share.png"
+    twitter = "@devfestbaltics"
+    facebook = "devfestbaltics"

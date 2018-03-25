@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{{with .Site.Params.Description }}<meta name="description" content="{{ . }}">{{end}}
+
+<meta name="author" content="{{ .Title }}">
+
+<meta name="theme-color" content="{{ .Site.Params.themeColor }}">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="{{ .Title }}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="{{ .Title }}">
+
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:site_name" content="{{ .Title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:description" content="{{ .Site.Params.Description }}">
+<meta property="og:type" content="Event">
+<meta property="og:image" content="{{ .Site.Social.shareImage }}">
+<meta property="og:image:type" content="image/png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="{{ .Site.Social.twitter }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Site.Params.Description }}">
+<meta name="twitter:image" content="{{ .Site.Social.shareImage }}">
+
+
