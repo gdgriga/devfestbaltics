@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{ .Title }}</title>
+
+  {{ partial "meta.html" . }}
+
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="shortcut icon" sizes="32x32" href="/images/favicon/favicon-32.png">
+  <link rel="shortcut icon" href="/images/favicon/favicon-72.png">
+  <link rel="apple-touch-icon" href="/images/touch/homescreen-48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/touch/homescreen-72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/images/touch/homescreen-96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/touch/homescreen-144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/touch/homescreen-192.png">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <script>
+    // hack to unregister old service workers
+    // and caches
+    caches.keys(function (listOfKeys) {
+      listOfKeys.map(function (key) {
+        caches.delete(key);
+      });
+    });
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  </script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '{{ .Site.Params.googleAnalytics }}');
+  </script>
+
+  <style>
+    .df-cover {
+      background-image: url('/images/cover.jpg');
+    }
+  </style>
+</head>
+
+<body>
