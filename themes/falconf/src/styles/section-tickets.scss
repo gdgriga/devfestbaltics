@@ -1,0 +1,102 @@
+@import 'colors.scss';
+@import 'mixins.scss';
+
+#tickets {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+
+
+.df-ticket-box {
+    border: solid 4px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2rem 0;
+
+    &.enabled {
+        border-color: $punk-pink;
+        color: $punk-pink;
+
+        .subtext {
+            color: rgba(255, 23, 68, 0.35);
+        }
+    }
+
+    &.enabled::after {
+        content: 'buy ticket';
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $winter-sky-blue;
+        text-align: center;
+        line-height: 100%;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: $punk-pink;
+        @include transition(opacity 0.5s ease);
+    }
+
+    &.enabled:hover {
+        &::after {
+            opacity: 1;
+        } 
+    }
+
+    &.disabled {
+        border-color: $dirty-blue;
+        color: $dirty-blue;
+
+        .subtext {
+            color: $dirty-blue;
+        }
+    }
+
+    .df-ticket-type {
+        writing-mode: vertical-rl;
+        border-right: dashed 4px;
+        padding: 1rem 0.5rem;
+    }
+
+    .df-ticket-price {
+        font-size: 5em;
+        letter-spacing: -0.07em;
+        padding: 0 1rem;
+    }
+
+    .df-ticket-date {
+        border-left: solid 4px;
+        font-size: 2em;
+        line-height: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+
+        .subtext {
+            display: block;
+        }
+
+        span {
+            line-height: 1.4em;
+        }
+    }
+}
+
+.ticket-button {
+    text-transform: uppercase;
+    text-align: center;
+    color: $winter-sky-blue;
+    background: $punk-pink;
+    padding: 1rem 1.5rem;
+
+    &:hover {
+        color: $winter-sky-blue;
+    }
+}

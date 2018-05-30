@@ -20,6 +20,9 @@ $('.scroll-class').each(function() {
               case "figures":
                 $("body").addClass("active-about");
                 break;
+              case "tickets":
+                $("body").addClass("active-tickets");
+                break;
               case "previous-event":
                 $("body").addClass("active-previous-videos");
                 break;
@@ -44,6 +47,9 @@ $('.scroll-class').each(function() {
           switch ($me[0].id) {
             case "about":
               $("body").removeClass("active-about");
+              break;
+            case "tickets": 
+              $("body").removeClass("active-tickets");
               break;
             case "previous-event":
               $("body").removeClass("active-previous-videos");
