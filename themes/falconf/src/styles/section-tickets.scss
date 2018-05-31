@@ -99,8 +99,12 @@
     text-transform: uppercase;
     text-align: center;
     color: $winter-sky-blue;
-    background: $punk-pink;
-    padding: 1rem 1.5rem;
+    
+    div {
+        background: $punk-pink;
+        padding: 1rem 1.5rem;
+        display: inline-block;
+    }
 
     &:hover {
         color: $winter-sky-blue;

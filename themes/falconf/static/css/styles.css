@@ -6151,6 +6151,8 @@ span {
         transform: translate(-2.7em); } }
   .df-cover h1 span {
     display: block; }
+    .df-cover h1 span:last-of-type {
+      margin-bottom: 2rem; }
   .df-cover h1 .df-slogan {
     text-decoration: none; }
 
@@ -6288,9 +6290,11 @@ span {
 .ticket-button {
   text-transform: uppercase;
   text-align: center;
-  color: #E1F5FE;
-  background: #FF4081;
-  padding: 1rem 1.5rem; }
+  color: #E1F5FE; }
+  .ticket-button div {
+    background: #FF4081;
+    padding: 1rem 1.5rem;
+    display: inline-block; }
   .ticket-button:hover {
     color: #E1F5FE; }
 
