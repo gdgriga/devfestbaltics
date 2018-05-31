@@ -6224,7 +6224,41 @@ span {
   justify-content: space-between;
   text-transform: uppercase;
   text-align: left;
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  border-color: #74B2E4;
+  color: #74B2E4;
+  min-height: 7rem; }
+  .df-ticket-box .df-ticket-type {
+    writing-mode: vertical-rl;
+    border-right: dashed 4px;
+    padding: 0.5rem;
+    text-align: center; }
+  .df-ticket-box .df-ticket-price {
+    font-size: 2em;
+    letter-spacing: -0.07em;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center; }
+    @media (min-width: 576px) {
+      .df-ticket-box .df-ticket-price {
+        font-size: 5em; } }
+  .df-ticket-box .df-ticket-date {
+    border-left: solid 4px;
+    font-size: 1em;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.5em; }
+    .df-ticket-box .df-ticket-date .subtext {
+      display: block;
+      color: #74B2E4; }
+    .df-ticket-box .df-ticket-date span {
+      line-height: 1.4em;
+      font-weight: 500; }
+    @media (min-width: 768px) {
+      .df-ticket-box .df-ticket-date {
+        padding: 0 2em; } }
   .df-ticket-box.enabled {
     border-color: #FF4081;
     color: #FF4081; }
@@ -6250,31 +6284,6 @@ span {
     transition: opacity 0.5s ease; }
   .df-ticket-box.enabled:hover::after {
     opacity: 1; }
-  .df-ticket-box.disabled {
-    border-color: #74B2E4;
-    color: #74B2E4; }
-    .df-ticket-box.disabled .subtext {
-      color: #74B2E4; }
-  .df-ticket-box .df-ticket-type {
-    writing-mode: vertical-rl;
-    border-right: dashed 4px;
-    padding: 1rem 0.5rem; }
-  .df-ticket-box .df-ticket-price {
-    font-size: 5em;
-    letter-spacing: -0.07em;
-    padding: 0 1rem; }
-  .df-ticket-box .df-ticket-date {
-    border-left: solid 4px;
-    font-size: 2em;
-    line-height: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 2rem; }
-    .df-ticket-box .df-ticket-date .subtext {
-      display: block; }
-    .df-ticket-box .df-ticket-date span {
-      line-height: 1.4em; }
 
 .ticket-button {
   text-transform: uppercase;
