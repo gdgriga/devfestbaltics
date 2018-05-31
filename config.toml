@@ -9,6 +9,9 @@ theme = "falconf"
     themeColor = "#651fff"
     googleAnalytics = "UA-102993739-2"
 
+    buyTicketURL = "http://example.com"
+    enableTicketsBlock = true
+
 [social]
     shareImage = "/images/social-share.png"
     twitter = "@devfestbaltics"

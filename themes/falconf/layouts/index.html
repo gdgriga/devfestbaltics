@@ -25,11 +25,13 @@
               <h1>
                 <span class="df-date">NOVEMBER 16, RIGA</span>
                 <span class="df-slogan">#1 Mobile Conference In The Baltics</span>
-                <a class="ticket-button" href="">
+                {{ if .Site.Params.enableTicketsBlock }}
+                <a class="ticket-button" href="#tickets">
                   <div>
                       Get a ticket
                   </div>
                 </a>
+                {{ end }}
               </h1>
             </div>
           </div>
@@ -79,50 +81,25 @@
           </div>
         </div>
         <!-- Section: Tickets -->
+        {{ if .Site.Params.enableTicketsBlock }}
         <div class="row scroll-class" id="tickets">
           <div class="col-12 text-center">
             <h1>Tickets</h1>
           </div>
           <div class="col-12 col-lg-8 offset-lg-2 text-center">
-            <div class="df-ticket-box enabled">
-              <div class="df-ticket-type">Blind bird</div>
-              <div class="df-ticket-price">
-                <span>49.95€</span>
-              </div>
-              <div class="df-ticket-date">
-                <span class="subtext">Till</span>
-                <span>Jul 1</span>
-              </div>
-            </div>
-            <div class="df-ticket-box">
-              <div class="df-ticket-type">Early bird</div>
-              <div class="df-ticket-price">
-                <span>69.95€</span>
-              </div>
-              <div class="df-ticket-date">
-                <span class="subtext">Till</span>
-                <span>Oct 1</span>
-              </div>
-            </div>
-            <div class="df-ticket-box">
-                <div class="df-ticket-type">Regular</div>
-                <div class="df-ticket-price">
-                  <span>99.95€</span>
-                </div>
-                <div class="df-ticket-date">
-                  <span class="subtext">Till</span>
-                  <span>Nov 1</span>
-                </div>
-              </div>
+           {{ range $.Site.Data.tickets }}
+              {{ partial "ticket.html" . }}
+           {{ end }}
           </div>
           <div class="col-12 text-center">
-            <a class="ticket-button" href="">
+            <a class="ticket-button" target="_blank" href="{{ .Site.Params.buyTicketURL }}">
               <div>
                   Get a ticket
               </div>
             </a>
           </div>
         </div>
+        {{ end }}
         <!-- Section: Last year videos -->
         <div class="row df-section-videos scroll-class" id="previous-event">
           <div class="col-12">
