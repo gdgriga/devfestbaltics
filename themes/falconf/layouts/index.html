@@ -25,7 +25,7 @@
               <h1>
                 <span class="df-date">NOVEMBER 16, RIGA</span>
                 <span class="df-slogan">#1 Mobile Conference In The Baltics</span>
-                {{ if .Site.Params.enableTicketsBlock }}
+                {{ if .Site.Params.sectionTickets.enabled }}
                 <a class="ticket-button" href="#tickets">
                   <div>
                       Get a ticket
@@ -81,7 +81,7 @@
           </div>
         </div>
         <!-- Section: Tickets -->
-        {{ if .Site.Params.enableTicketsBlock }}
+        {{ if .Site.Params.sectionTickets.enabled }}
         <div class="row scroll-class" id="tickets">
           <div class="col-12 text-center">
             <h1>Tickets</h1>
@@ -92,7 +92,7 @@
            {{ end }}
           </div>
           <div class="col-12 text-center">
-            <a class="ticket-button" target="_blank" href="{{ .Site.Params.buyTicketURL }}">
+            <a class="ticket-button" target="_blank" href="{{ .Site.Params.sectionTickets.buyURL }}">
               <div>
                   Get a ticket
               </div>
