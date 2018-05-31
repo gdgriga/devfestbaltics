@@ -6134,13 +6134,19 @@ span {
   opacity: 0.7; }
 
 .df-cover {
-  padding-top: 6em;
+  padding-top: 3em;
   height: 100vh;
   margin-bottom: 3em;
   background-size: cover; }
+  @media (min-width: 576px) {
+    .df-cover {
+      padding-top: 6em; } }
   .df-cover .df-title {
-    padding: 2em 4em;
+    padding: 2em 3em;
     background: rgba(0, 0, 0, 0.6); }
+    @media (min-width: 576px) {
+      .df-cover .df-title {
+        padding: 2em 4em; } }
   .df-cover .df-logo {
     margin-bottom: 3em;
     height: 4em;
