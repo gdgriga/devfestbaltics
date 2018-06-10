@@ -4,10 +4,8 @@ require('bootstrap')
 
 import './index.scss'
 import './js/sidebar'
-import './js/scrollspy'
 import './js/smoothScroll'
-
-console.log("world!")
+import './js/colorChangeOnScroll'
 
 // use tooltip and popover components everywhere
 $(function (){
