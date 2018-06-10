@@ -93,7 +93,7 @@ body {
         }
     }
 
-    &.active-about-previous {
+    &.active-about-previous, &.active-photos {
         background: $ideal-white;
         color:  $almost-black;
 
