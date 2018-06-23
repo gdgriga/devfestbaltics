@@ -34,18 +34,18 @@ const resolveClass = (currentElement, index, scrolledFromTop) => {
         const bottom = getColorChangeBorder(nextElement.offsetTop, nextElement.offsetHeight)
         if (scrolledFromTop >= top && scrolledFromTop < bottom) {
             return getClassName(nextElement.id)
-        }        
+        }
     }
 }
 
-const handleScroll = () => {
+const handleChangeColorOnScroll = () => {
     const scrolledFromTop = window.scrollY
     SECTIONS.forEach((currentElement, index) => {
         const newClass = resolveClass(currentElement, index, scrolledFromTop)
-        if(newClass !== undefined) {
+        if (newClass !== undefined) {
             body.className = newClass
         }
     })
 }
 
-window.addEventListener('scroll', handleScroll)
+export default handleChangeColorOnScroll
