@@ -4,7 +4,9 @@
   <div id="df-sidebar-wrapper">
     <nav class="df-sidebar-nav">
       <a href="#about">About</a>
-      <a href="#tickets">Tickets</a>
+      {{ if .Site.Params.sectionTickets.enabled }}
+        <a href="#tickets">Tickets</a>
+      {{ end }}
       <a href="#previous-event">Previous event</a>
       <a href="#tweets">What people say</a>
       <a href="#subscribe">Subscribe for news</a>
