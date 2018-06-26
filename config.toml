@@ -17,3 +17,7 @@ theme = "falconf"
 [params.sectionTickets]
     enabled = true
     buyURL = "http://example.com"
+
+[params.sectionCallForPaper]
+    enabled = true
+    URL = "http://example.com"

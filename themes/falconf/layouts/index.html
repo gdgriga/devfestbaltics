@@ -7,7 +7,10 @@
       {{ if .Site.Params.sectionTickets.enabled }}
         <a href="#tickets">Tickets</a>
       {{ end }}
-      <a href="#previous-videos">Previous event</a>
+      {{ if .Site.Params.sectionCallForPaper.enabled }}
+        <a href="#call-for-paper">Become a speaker</a>
+      {{ end }}
+      <a href="#previous-event">Previous event</a>
       <a href="#tweets">What people say</a>
       <a href="#subscribe">Subscribe for news</a>
       <nav>
@@ -98,6 +101,18 @@
                 Get a ticket
               </div>
             </a>
+          </div>
+        </div>
+        {{ end }}
+        <!-- Section: Call for paper -->
+        {{ if .Site.Params.sectionCallForPaper.enabled }}
+        <div class="row scroll-class" id="call-for-paper">
+          <div class="col-12">
+            <h1>Interested in becoming a speaker?</h1>
+            <span class="df-subtitle">We encourage submissions from female speakers to bring more diversity into tech industry.</span>
+          </div>
+          <div class="col-12">
+            <a class="df-button" href="{{ .Site.Params.sectionCallForPaper.URL }}" target="_blank">Submit your talk</a>
           </div>
         </div>
         {{ end }}
