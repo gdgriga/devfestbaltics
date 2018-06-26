@@ -20,4 +20,4 @@ theme = "falconf"
 
 [params.sectionCallForPaper]
     enabled = true
-    URL = "http://example.com"
+    URL = "https://www.papercall.io/devfest-baltics-18"
