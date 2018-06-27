@@ -1,0 +1,112 @@
+@import 'colors.scss';
+@import 'mixins.scss';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+#tickets {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+.df-ticket-box {
+    border: solid 4px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2rem 0;
+    border-color: $dirty-blue;
+    color: $dirty-blue;
+    min-height: 7rem;
+
+    .df-ticket-type {
+        writing-mode: vertical-rl;
+        border-right: dashed 4px;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .df-ticket-price {
+        font-size: 2em;
+        letter-spacing: -0.07em;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 5em;
+        }
+    }
+
+    .df-ticket-date {
+        border-left: solid 4px;
+        font-size: 1em;
+        line-height: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0.5em;
+
+        .subtext {
+            display: block;
+            color: $dirty-blue;
+        }
+
+        span {
+            line-height: 1.4em;
+            font-weight: 500;
+        }
+
+        @include media-breakpoint-up(md) {
+            padding: 0 2em;
+        }
+    }
+
+    &.enabled {
+        border-color: $punk-pink;
+        color: $punk-pink;
+
+        .subtext {
+            color: rgba(255, 23, 68, 0.35);
+        }
+    }
+
+    &.enabled::after {
+        content: 'buy ticket';
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $winter-sky-blue;
+        text-align: center;
+        line-height: 100%;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: $punk-pink;
+        @include transition(opacity 0.5s ease);
+    }
+
+    &.enabled:hover {
+        &::after {
+            opacity: 1;
+        } 
+    } 
+}
+
+.ticket-button {
+    text-transform: uppercase;
+    text-align: center;
+    color: $winter-sky-blue;
+    
+    div {
+        background: $punk-pink;
+        padding: 1rem 1.5rem;
+        display: inline-block;
+    }
+
+    &:hover {
+        color: $winter-sky-blue;
+    }
+}

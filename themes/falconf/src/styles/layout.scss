@@ -32,6 +32,46 @@ body {
             filter: grayscale(100%) !important;
         }
     }
+
+    &.active-tickets {
+        background: $winter-sky-blue;
+        color:  $punk-pink;
+
+        #df-sidebar-wrapper {
+            background: $winter-sky-blue;
+            color:  $punk-pink;
+        }
+
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(255, 198, 213, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
+
+    &.active-call-for-paper {
+        background: $navy-blue;
+        color:  $punk-pink;
+
+        #df-sidebar-wrapper {
+            background: $navy-blue;
+            color:  $punk-pink;
+        }
+
+        .df-section-tweets {
+            .df-tweet-frame {
+                border-color: rgba(255, 198, 213, 0.45);
+            }
+        }
+
+        .df-gray {
+            filter: grayscale(100%) !important;
+        }
+    }
     
     &.active-previous-videos {
         background: $sakura-pink;
@@ -73,7 +113,7 @@ body {
         }
     }
 
-    &.active-about-previous {
+    &.active-about-previous, &.active-photos {
         background: $ideal-white;
         color:  $almost-black;
 

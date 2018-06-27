@@ -1,0 +1,10 @@
+<div class="df-ticket-box {{ if .enabled }}enabled{{end}}">
+  <div class="df-ticket-type">{{ .type }}</div>
+  <div class="df-ticket-price">
+    <span>{{ .price }}</span>
+  </div>
+  <div class="df-ticket-date">
+    <span class="subtext">{{ .dateTextAbove }}</span>
+    <span>{{ .dateTextBellow }}</span>
+  </div>
+</div>

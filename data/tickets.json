@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Blind bird",
+        "price": "49.95€",
+        "dateTextAbove": "Till",
+        "dateTextBellow": "Jul 1",
+        "enabled": true
+    },
+    {
+        "type": "Early bird",
+        "price": "69.95€",
+        "dateTextAbove": "Till",
+        "dateTextBellow": "Oct 1",
+        "enabled": false
+    },
+    {
+        "type": "Regular",
+        "price": "99.95€",
+        "dateTextAbove": "Till",
+        "dateTextBellow": "Nov 1",
+        "enabled": false
+    }
+]

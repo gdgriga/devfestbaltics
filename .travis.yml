@@ -21,3 +21,9 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
+
+notifications:
+  slack:
+    rooms:
+      - gdgriga:hje7NZFbblqQtBbo59mMbsYp
+    on_pull_requests: false

@@ -1,0 +1,12 @@
+<div class="col-12 col-md-4">
+  <div class="df-tweet-frame">
+    <img src="{{ .Params.imagePath }}" alt="{{ .Params.who }}">
+    <div class="df-tweet-heading">
+      <h2>{{ .Params.who }}</h2>
+      <a href="https://twitter.com/{{ .Params.twitterHandle }}" target="_blank">
+        <span class="df-tag">@{{ .Params.twitterHandle }}</span>
+      </a>
+    </div>
+    <p>{{ .Content }}</p>
+  </div>
+</div>
