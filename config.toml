@@ -9,7 +9,7 @@ theme = "falconf"
     themeColor = "#651fff"
     googleAnalytics = "UA-102993739-2" 
 
-[social]
+[params.social]
     shareImage = "/images/social-share.png"
     twitter = "@devfestbaltics"
     facebook = "devfestbaltics"
