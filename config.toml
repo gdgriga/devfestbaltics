@@ -16,7 +16,7 @@ theme = "falconf"
 
 [params.sectionTickets]
     enabled = false
-    buyURL = "http://example.com"
+    URL = "https://en.xing-events.com/DevFestBaltics2018.html"
 
 [params.sectionCallForPaper]
     enabled = true

@@ -1,3 +1,5 @@
+{{ range $.Site.Data.tickets }}
+{{ if .enabled }}<a style="text-decoration:none; color:inherit;" href="{{ $.Site.Params.sectionTickets.URL }}" target="_blank">{{end}}
 <div class="df-ticket-box {{ if .enabled }}enabled{{end}}">
   <div class="df-ticket-type">{{ .type }}</div>
   <div class="df-ticket-price">
@@ -8,3 +10,5 @@
     <span>{{ .dateTextBellow }}</span>
   </div>
 </div>
+{{ if .enabled }}</a>{{end}}
+{{end}}
