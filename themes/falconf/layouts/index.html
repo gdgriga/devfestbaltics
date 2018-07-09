@@ -5,7 +5,7 @@
     <nav class="df-sidebar-nav">
       <a href="#about">About</a>
       {{ if .Site.Params.sectionTickets.enabled }}
-        <a href="#tickets">Tickets</a>
+        <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
       {{ end }}
       {{ if .Site.Params.sectionCallForPaper.enabled }}
         <a href="#call-for-paper">Become a speaker</a>
@@ -32,7 +32,7 @@
                 <span class="df-date">NOVEMBER 16, JURMALA</span>
                 <span class="df-slogan">#1 Mobile Conference In The Baltics</span>
                 {{ if .Site.Params.sectionTickets.enabled }}
-                <a class="ticket-button" href="#tickets">
+                <a class="ticket-button" href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">
                   <div>
                     Get a ticket
                   </div>
@@ -93,14 +93,7 @@
             <h1>Tickets</h1>
           </div>
           <div class="col-12 col-lg-8 offset-lg-2 text-center">
-            {{ range $.Site.Data.tickets }} {{ partial "ticket.html" . }} {{ end }}
-          </div>
-          <div class="col-12 text-center">
-            <a class="ticket-button" target="_blank" href="{{ .Site.Params.sectionTickets.buyURL }}">
-              <div>
-                Get a ticket
-              </div>
-            </a>
+            {{ partial "ticket.html" . }} 
           </div>
         </div>
         {{ end }}
