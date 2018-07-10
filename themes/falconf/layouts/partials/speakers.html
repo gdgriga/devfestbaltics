@@ -1,0 +1,19 @@
+<div class="row df-section-speakers scroll-class" id="speakers">
+  <div class="col-12">
+    <h1>Our speakers</h1>
+  </div>
+  {{ range where .Data.Pages "Section" "speakers" }}
+  <div class="col-12 col-md-4">
+    <img src="{{ .Params.pictureURL }}" alt="">
+    <div class="df-tweet-heading">
+      <h2>{{ .Params.name }}</h2>
+      {{ range where .Params.social "type" "twitter" }}
+      <a href="{{ .url }}" target="_blank">
+        <span class="df-tag">@{{ .display }}</span>
+      </a>
+      {{ end }}
+    </div>
+    <p>{{ .Params.shortDescription }}</p>
+  </div>
+  {{ end }}
+</div>

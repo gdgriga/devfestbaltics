@@ -1,7 +1,7 @@
 +++
 title = "Juarez Filho"
 date = 2018-02-13T18:03:26+02:00
-draft = false
+draft = true
 outputs = ["html", "json"]
 
 # All information about speaker

@@ -6,6 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "{{ replace .Name "-" " " | title }}"
+shortDescription = ""
 pictureURL = "/images/speakers/{{ .Name }}.jpg"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json
