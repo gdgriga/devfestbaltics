@@ -5,7 +5,7 @@
     <nav class="df-sidebar-nav">
       <a href="#about">About</a>
       {{ if .Site.Params.sectionTickets.enabled }}
-        <a href="#tickets">Tickets</a>
+        <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
       {{ end }}
       {{ if .Site.Params.sectionCallForPaper.enabled }}
         <a href="#call-for-paper">Become a speaker</a>
@@ -32,7 +32,7 @@
                 <span class="df-date">NOVEMBER 16, JURMALA</span>
                 <span class="df-slogan">#1 Mobile Conference In The Baltics</span>
                 {{ if .Site.Params.sectionTickets.enabled }}
-                <a class="ticket-button" href="#tickets">
+                <a class="ticket-button" href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">
                   <div>
                     Get a ticket
                   </div>
@@ -93,17 +93,46 @@
             <h1>Tickets</h1>
           </div>
           <div class="col-12 col-lg-8 offset-lg-2 text-center">
-            {{ range $.Site.Data.tickets }} {{ partial "ticket.html" . }} {{ end }}
-          </div>
-          <div class="col-12 text-center">
-            <a class="ticket-button" target="_blank" href="{{ .Site.Params.sectionTickets.buyURL }}">
-              <div>
-                Get a ticket
-              </div>
-            </a>
+            {{ partial "ticket.html" . }} 
           </div>
         </div>
         {{ end }}
+        <!-- Section: Speakers -->
+        <div class="row df-section-speakers scroll-class" id="speakers">
+          <div class="col-12">
+            <h1>Our speakers</h1>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="/images/speakers/sundell.jpg" alt="">
+            <div class="df-tweet-heading">
+              <h2>John Sundell</h2>
+              <a href="https://twitter.com/johnsundell" target="_blank">
+                <span class="df-tag">@johnsundell</span>
+              </a>
+            </div>
+            <p>Creator of "Swift by Sundell" — weekly blog about Swift development.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="/images/speakers/cejas.jpg" alt="">
+            <div class="df-tweet-heading">
+              <h2>Marcin Krzyzanowski</h2>
+              <a href="https://twitter.com/krzyzanowskim" target="_blank">
+                <span class="df-tag">@krzyzanowskim</span>
+              </a>
+            </div>
+            <p>iOS Ninja at PSPDFKit and a Crypto fellow.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="/images/speakers/marcin_krzyzanowski.jpg" alt="">
+            <div class="df-tweet-heading">
+              <h2>Fernando Cejas</h2>
+              <a href="https://twitter.com/fernando_cejas" target="_blank">
+                <span class="df-tag">@fernando_cejas</span>
+              </a>
+            </div>
+            <p>Developer Advocate at IBM. SoundCloud Alumni. Curious learner.</p>
+          </div>
+        </div>
         <!-- Section: Call for paper -->
         {{ if .Site.Params.sectionCallForPaper.enabled }}
         <div class="row scroll-class" id="call-for-paper">
