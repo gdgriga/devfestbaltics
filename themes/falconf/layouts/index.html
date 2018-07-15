@@ -102,41 +102,8 @@
         </div>
         {{ end }}
         <!-- Section: Speakers -->
-        <div class="row df-section-speakers scroll-class" id="speakers">
-          <div class="col-12">
-            <h1>Our speakers</h1>
-          </div>
-          <div class="col-12 col-md-4">
-            <img src="/images/speakers/sundell.jpg" alt="">
-            <div class="df-tweet-heading">
-              <h2>John Sundell</h2>
-              <a href="https://twitter.com/johnsundell" target="_blank">
-                <span class="df-tag">@johnsundell</span>
-              </a>
-            </div>
-            <p>Creator of "Swift by Sundell" — weekly blog about Swift development.</p>
-          </div>
-          <div class="col-12 col-md-4">
-            <img src="/images/speakers/marcin_krzyzanowski.jpg" alt="">
-            <div class="df-tweet-heading">
-              <h2>Marcin Krzyzanowski</h2>
-              <a href="https://twitter.com/krzyzanowskim" target="_blank">
-                <span class="df-tag">@krzyzanowskim</span>
-              </a>
-            </div>
-            <p>iOS Ninja at PSPDFKit and a Crypto fellow.</p>
-          </div>
-          <div class="col-12 col-md-4">
-            <img src="/images/speakers/cejas.jpg" alt="">
-            <div class="df-tweet-heading">
-              <h2>Fernando Cejas</h2>
-              <a href="https://twitter.com/fernando_cejas" target="_blank">
-                <span class="df-tag">@fernando_cejas</span>
-              </a>
-            </div>
-            <p>Developer Advocate at IBM. SoundCloud Alumni. Curious learner.</p>
-          </div>
-        </div>
+        {{ partial "speakers.html" . }}       
+      
         <!-- Section: Call for paper -->
         {{ if .Site.Params.sectionCallForPaper.enabled }}
         <div class="row scroll-class" id="call-for-paper">
