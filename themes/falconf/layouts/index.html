@@ -5,12 +5,11 @@
     <nav class="df-sidebar-nav">
       <a href="#about">About</a>
       {{ if .Site.Params.sectionTickets.enabled }}
-        <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
+      <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
+      {{ end }} {{ if .Site.Params.sectionCallForPaper.enabled }}
+      <a href="#call-for-paper">Become a speaker</a>
       {{ end }}
-      {{ if .Site.Params.sectionCallForPaper.enabled }}
-        <a href="#call-for-paper">Become a speaker</a>
-      {{ end }}
-      <a href="#previous-event">Previous event</a>
+      <a href="#previous-videos">Previous event</a>
       <a href="#tweets">What people say</a>
       <a href="#subscribe">Subscribe for news</a>
       <nav>
@@ -93,11 +92,13 @@
             <h1>Tickets</h1>
           </div>
           <div class="col-12 col-lg-8 offset-lg-2 text-center">
-            {{ partial "ticket.html" . }} 
+            {{ partial "ticket.html" . }}
           </div>
           <div class="col-12 text-center">
-              <h1>Tickets for group of 5+ people?</h1>
-              <h2>Ping us for discount at <a href="mailto:info@devfest.gdg.lv" target="_top">info@devfest.gdg.lv</a></h2>
+            <h1>Tickets for group of 5+ people?</h1>
+            <h2>Ping us for discount at
+              <a href="mailto:info@devfest.gdg.lv" target="_top">info@devfest.gdg.lv</a>
+            </h2>
           </div>
         </div>
         {{ end }}
