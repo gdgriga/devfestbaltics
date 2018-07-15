@@ -20,22 +20,27 @@ tags = []
 # Remove any that not applies
 [[social]]
   type = "github"
+  display = ""
   url = "https://github.com/<username>"
 
 [[social]]
   type = "twitter"
+  display = ""
   url = "https://twitter.com/<username>"
 
 [[social]]
   type = "facebook"
+  display = ""
   url = "https://facebook.com/<username>"
 
 [[social]]
   type = "instagram"
+  display = ""
   url = "https://instragram.com/<username>"
 
 [[social]]
   type = "linkedin"
+  display = ""
   url = "linkedin.com/in/<username>"
 
 +++
