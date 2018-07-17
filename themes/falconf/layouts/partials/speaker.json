@@ -1,5 +1,6 @@
 {
   "name": {{ .Params.name | jsonify }},
+  "shortDescription": {{ .Params.shortDescription | jsonify }},
   "pictureURL": {{ .Params.pictureURL | jsonify }},
   "country": {{range where .Site.Data.private.countries "iso" .Params.country}}{{ .country | jsonify }}{{end}},
   "company": {{range where .Site.Data.companies "name" .Params.company}}{{ . | jsonify }}{{end}},
