@@ -53,12 +53,18 @@ body {
   }
 
   &.active-figures {
-    background: $punk-pink;
-    color: $sakura-pink;
+    background: $navy-blue;
+    color: $punk-pink;
 
     #df-sidebar-wrapper {
-      background: $punk-pink;
-      color: $sakura-pink;
+      background: $navy-blue;
+      color: $punk-pink;
+    }
+
+    .df-section-tweets {
+      .df-tweet-frame {
+        border-color: rgba(255, 198, 213, 0.45);
+      }
     }
 
     .df-gray {
