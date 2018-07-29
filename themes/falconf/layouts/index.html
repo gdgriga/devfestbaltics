@@ -77,8 +77,6 @@
             <p>New, hot topics about mobile development, Android and iOS, Mobile Crossplatform tools, UI/UX and prototyping,
               Internet of Things, VR and AR, bots, AI, ML and more!</p>
           </div>
-
-
         </div>
 
         <div class="row df-section-about scroll-class" id="figures">
@@ -116,8 +114,8 @@
         </div>
         {{ end }}
         <!-- Section: Speakers -->
-        {{ partial "speakers.html" . }}       
-      
+        {{ partial "speakers.html" . }}
+
         <!-- Section: Call for paper -->
         {{ if .Site.Params.sectionCallForPaper.enabled }}
         <div class="row scroll-class" id="call-for-paper">
@@ -130,10 +128,24 @@
           </div>
         </div>
         {{ end }}
+        <!-- Section: Retrospective video -->
+        {{ if .Site.Params.sectionRetrospectiveVideo.enabled }}
+        <div class="row df-section-retrospective scroll-class" id="retrospective">
+          <div class="col-12">
+            <h1>HOW IT WAS LAST YEAR</h1>
+          </div>
+          <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9 df-video-box df-gray">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SJGUs3EyuH4?rel=0&amp;showinfo=0" frameborder="0"
+                allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        {{ end }}
         <!-- Section: Last year videos -->
         <div class="row df-section-videos scroll-class" id="previous-videos">
           <div class="col-12">
-            <h1>HOW IT WAS LAST YEAR</h1>
+            <h1>DevFest Baltics 2017 talks</h1>
           </div>
           <div class="col-12 col-md-4">
             <a href="https://youtu.be/WIJCtyFcPKE" target="_blank">
