@@ -7,7 +7,7 @@ theme = "falconf"
 [params]
     description = "DevFest Baltics is the first conference in the Baltics packed with topics about mobile development and carefully crafted for you by GDG Baltics community! All about mobile development, Android and iOS, Mobile Crossplatform tools, UI/UX and prototyping, Internet of Things, VR and AR, bots, AI and more"
     themeColor = "#651fff"
-    googleAnalytics = "UA-102993739-2" 
+    googleAnalytics = "UA-102993739-2"
 
 [params.social]
     shareImage = "/images/social-share.png"
@@ -21,3 +21,6 @@ theme = "falconf"
 [params.sectionCallForPaper]
     enabled = true
     URL = "https://www.papercall.io/devfest-baltics-18"
+
+[params.sectionRetrospectiveVideo]
+    enabled = true

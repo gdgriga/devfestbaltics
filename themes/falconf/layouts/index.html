@@ -129,6 +129,7 @@
         </div>
         {{ end }}
         <!-- Section: Retrospective video -->
+        {{ if .Site.Params.sectionRetrospectiveVideo.enabled }}
         <div class="row df-section-retrospective scroll-class" id="retrospective">
           <div class="col-12">
             <h1>HOW IT WAS LAST YEAR</h1>
@@ -140,6 +141,7 @@
             </div>
           </div>
         </div>
+        {{ end }}
         <!-- Section: Last year videos -->
         <div class="row df-section-videos scroll-class" id="previous-videos">
           <div class="col-12">
