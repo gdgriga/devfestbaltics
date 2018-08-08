@@ -4,14 +4,14 @@
         "price": "49.95€",
         "dateTextAbove": "Till",
         "dateTextBellow": "Aug 5",
-        "enabled": true
+        "enabled": false
     },
     {
         "type": "Early bird",
         "price": "69.95€",
         "dateTextAbove": "Till",
         "dateTextBellow": "Oct 5",
-        "enabled": false
+        "enabled": true
     },
     {
         "type": "Regular",
