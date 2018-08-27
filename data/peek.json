@@ -4,5 +4,11 @@
         "title": "How To Bring A Product To Reality In A Few Days",
         "description": "How a seamless cooperation can lead into a new wave of very rapid prototyping",
         "category": "Android"
+    },
+    {
+        "speaker": "Paul Hudson",
+        "title": "Core ML for everyone",
+        "description": "Create ML and Core ML provide a powerful duo that can add functionality to your app in just a few minutes",
+        "category": "iOS"
     }
 ]
