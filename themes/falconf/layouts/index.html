@@ -114,7 +114,15 @@
         </div>
         {{ end }}
         <!-- Section: Speakers -->
+        {{ if .Site.Params.sectionTickets.enabled }}
         {{ partial "speakers.html" . }}
+        {{ end }}
+
+        <!-- Section what to expect -->
+        {{ if .Site.Params.sectionSchedule.enabled }}
+        {{ partial "schedule.html" . }}
+        {{ end }}
+
 
         <!-- Section: Call for paper -->
         {{ if .Site.Params.sectionCallForPaper.enabled }}

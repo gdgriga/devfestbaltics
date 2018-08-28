@@ -18,6 +18,9 @@ theme = "falconf"
     enabled = true
     URL = "https://en.xing-events.com/DevFestBaltics2018.html"
 
+[params.sectionSchedule]
+    enabled = true
+
 [params.sectionCallForPaper]
     enabled = true
     URL = "https://www.papercall.io/devfest-baltics-18"

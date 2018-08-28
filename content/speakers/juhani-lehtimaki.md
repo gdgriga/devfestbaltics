@@ -6,7 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "Juhani Lehtimäki"
-shortDescription = "Android GDE and Author of Smashing Android UI"
+shortDescription = "Android GDE and Author of Smashing Android UI."
 pictureURL = "/images/speakers/juhani-lehtimaki.jpg"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json

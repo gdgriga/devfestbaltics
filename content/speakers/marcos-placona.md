@@ -6,7 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "Marcos Placona"
-shortDescription = "Android GDE and Developer Evangelist @ Twilio"
+shortDescription = "Android GDE and Developer Evangelist @ Twilio."
 pictureURL = "/images/speakers/marcos-placona.png"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json
