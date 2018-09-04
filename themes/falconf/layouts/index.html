@@ -8,6 +8,8 @@
       <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
       {{ end }} {{ if .Site.Params.sectionCallForPaper.enabled }}
       <a href="#call-for-paper">Become a speaker</a>
+      {{ end }} {{ if .Site.Params.sectionWorkshops.enabled }}
+      <a href="#workshops">Workshops</a>
       {{ end }}
       <a href="#previous-videos">Previous event</a>
       <a href="#tweets">What people say</a>
@@ -114,14 +116,13 @@
         </div>
         {{ end }}
         <!-- Section: Speakers -->
-        {{ if .Site.Params.sectionTickets.enabled }}
-        {{ partial "speakers.html" . }}
-        {{ end }}
+        {{ if .Site.Params.sectionTickets.enabled }} {{ partial "speakers.html" . }} {{ end }}
+
+        <!-- Section: Workshops -->
+        {{ if .Site.Params.sectionWorkshops.enabled }} {{ partial "workshops.html" . }} {{ end }}
 
         <!-- Section what to expect -->
-        {{ if .Site.Params.sectionSchedule.enabled }}
-        {{ partial "schedule.html" . }}
-        {{ end }}
+        {{ if .Site.Params.sectionSchedule.enabled }} {{ partial "schedule.html" . }} {{ end }}
 
 
         <!-- Section: Call for paper -->
@@ -203,8 +204,8 @@
           <div class="col-12 col-md-6 df-sm-article">
             <h2>What to expect</h2>
             <p>Last year we had more than 200 participants. It was a big day full of different activities, contests and communications.</p>
-            <p>11 speakers from the different parts of the world shared their knowledge in the Android, iOS, Security and Design
-              areas.
+            <p>11 speakers from the different parts of the world shared their knowledge in the Android, iOS, Security and
+              Design areas.
             </p>
             <p>Massive afterparty in bowling where everyone had fun time enjoying the game and conversations.</p>
             <p>Everyone got new knowledge and had fun! This year we expect even more of everything...</p>

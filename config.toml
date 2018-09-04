@@ -27,3 +27,6 @@ theme = "falconf"
 
 [params.sectionRetrospectiveVideo]
     enabled = true
+
+[params.sectionWorkshops]
+    enabled = true
