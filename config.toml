@@ -22,7 +22,7 @@ theme = "falconf"
     enabled = true
 
 [params.sectionCallForPaper]
-    enabled = true
+    enabled = false
     URL = "https://www.papercall.io/devfest-baltics-18"
 
 [params.sectionRetrospectiveVideo]
