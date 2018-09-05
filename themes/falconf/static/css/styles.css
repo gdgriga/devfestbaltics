@@ -6725,7 +6725,7 @@ body {
     background: #9C27B0;
     color: #FFC6D5; }
     body.active-speakers #df-sidebar-wrapper {
-      background: #311B92;
+      background: #9C27B0;
       color: #FF4081; }
       body.active-speakers #df-sidebar-wrapper::-webkit-scrollbar-thumb {
         background: #FFC6D5; }
