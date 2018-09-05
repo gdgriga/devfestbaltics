@@ -1,3 +1,5 @@
+@import 'colors.scss';
+
 .df-section-schedule {
   color: #e1f5fe;
 }
@@ -16,4 +18,46 @@
   min-height: 266px;
   color: rgba(225, 245, 254, 0.45);
   background: rgba(225, 245, 254, 0.45);
+}
+
+.schedule-date {
+  padding-bottom: 1rem;
+}
+
+#workshops {
+  .line {
+    margin-top: 1em;
+    border-bottom: 3px solid;
+    color: inherit;
+    width: 100%;
+  }
+  .workshop-name {
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    margin-bottom: 2em;
+    max-width: 20ch;
+  }
+
+  .workshop-author {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 30%;
+    }
+
+    .author-wrapper {
+      display: inline-block;
+      padding-left: 1em;
+    }
+
+    span,
+    a {
+      text-transform: none;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
 }

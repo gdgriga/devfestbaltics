@@ -36,7 +36,8 @@ body {
     }
   }
 
-  &.active-tickets {
+  &.active-tickets,
+  &.active-workshops {
     background: $winter-sky-blue;
     color: $punk-pink;
 

@@ -1,0 +1,36 @@
+<div class="df-section-workshops row scroll-class" id="workshops">
+  <div class="col-12">
+    <h1>Workshops</h1>
+  </div>
+  <div class="col-12 schedule-date">
+    <h2>Saturtday, November 17</h2>
+    <div class="line"></div>
+  </div>
+  {{ range $.Site.Data.workshops }}
+  <div class="col-12 col-md-4">
+    <div class="workshop-name">
+      <div class="text-left workshop-name">{{ .name }}</div>
+      <div class="workshop-author">
+        <img class="round-photo" src="{{ .photo }}" alt="">
+        <div class="author-wrapper">
+          <span>{{ .mentor }}</span>
+          <a href="{{ .url }}" target="_blank">
+            <span class="df-tag">@{{ .twitter }}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="workshop-de">
+      <p>{{ .description }}</p>
+    </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <!-- buy ticket button should be here -->
+  </div>
+  <div class="col-12">
+    <div class="line"></div>
+  </div>
+  {{end}}
+</div>
