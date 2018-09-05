@@ -103,7 +103,8 @@ body {
     }
   }
 
-  &.active-call-for-paper {
+  &.active-call-for-paper,
+  &.active-schedule {
     background: $navy-blue;
     color: $punk-pink;
 

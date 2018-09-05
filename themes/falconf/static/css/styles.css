@@ -6733,17 +6733,17 @@ body {
       border-color: rgba(255, 198, 213, 0.45); }
     body.active-speakers .df-gray {
       filter: grayscale(100%) !important; }
-  body.active-call-for-paper {
+  body.active-call-for-paper, body.active-schedule {
     background: #311B92;
     color: #FF4081; }
-    body.active-call-for-paper #df-sidebar-wrapper {
+    body.active-call-for-paper #df-sidebar-wrapper, body.active-schedule #df-sidebar-wrapper {
       background: #311B92;
       color: #FF4081; }
-      body.active-call-for-paper #df-sidebar-wrapper::-webkit-scrollbar-thumb {
+      body.active-call-for-paper #df-sidebar-wrapper::-webkit-scrollbar-thumb, body.active-schedule #df-sidebar-wrapper::-webkit-scrollbar-thumb {
         background: #FF4081; }
-    body.active-call-for-paper .df-section-tweets .df-tweet-frame {
+    body.active-call-for-paper .df-section-tweets .df-tweet-frame, body.active-schedule .df-section-tweets .df-tweet-frame {
       border-color: rgba(255, 198, 213, 0.45); }
-    body.active-call-for-paper .df-gray {
+    body.active-call-for-paper .df-gray, body.active-schedule .df-gray {
       filter: grayscale(100%) !important; }
   body.active-previous-videos {
     background: #FFC6D5;
