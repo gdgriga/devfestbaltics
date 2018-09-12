@@ -26,8 +26,10 @@
       <p>{{ .description }}</p>
     </div>
   </div>
-  <div class="col-12 col-md-4">
-    <!-- buy ticket button should be here -->
+  <div class="col-12 col-md-4 text-center">
+    {{ if .buyTicketEnabled }}
+    <a class="buy-button" target="_blank" href="https://en.xing-events.com/DevFestBaltics2018.html">Get ticket</a>
+    {{ end }}
   </div>
   <div class="col-12">
     <div class="line"></div>
