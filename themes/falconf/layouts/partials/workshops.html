@@ -26,8 +26,10 @@
       <p>{{ .description }}</p>
     </div>
   </div>
-  <div class="col-12 col-md-4">
-    <!-- buy ticket button should be here -->
+  <div class="col-12 col-md-4 text-center">
+    {{ if $.Param "sectionTickets.enabled" }}
+    <a class="buy-button" target="_blank" href="{{ $.Param "sectionTickets.URL" }}">Get ticket</a>
+    {{ end }}
   </div>
   <div class="col-12">
     <div class="line"></div>

@@ -19,3 +19,14 @@ a.df-button {
   border-radius: 50%;
   border: 3px solid;
 }
+
+.buy-button {
+  background: inherit;
+  padding: 0.5em;
+  color: inherit;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 0.9em;
+  border: 3px solid;
+  box-sizing: content-box;
+}
