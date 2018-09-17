@@ -3,7 +3,7 @@
         "speaker": "Juhani Lehtimaki, Pierluigi Rufo",
         "title": "How To Bring A Product To Reality In A Few Days",
         "description": "How a seamless cooperation can lead into a new wave of very rapid prototyping",
-        "category": "Android"
+        "category": "UI/UX"
     },
     {
         "speaker": "Paul Hudson",
@@ -16,5 +16,41 @@
         "title": "IoT – Beyond prototyping",
         "description": "Will walk you through the process of turning a tangle of wires on a breadboard into a product",
         "category": "IoT"
+    },
+    {
+        "speaker": "Resul Caner Yildirim",
+        "title": "Can The Material Design Live Long And Prosper?",
+        "description": "Can Material Design solve our problems? Do we use it as it should be? How can we implement MD to our projects?",
+        "category": "UI/UX"
+    },
+    {
+        "speaker": "Yoichi Tagaya",
+        "title": "Dependency Injection Pattern for iOS Apps",
+        "description": "In this talk, the original author of Swinject, the most popular DI framework for Swift/iOS, will introduce DI pattern for iOS apps.",
+        "category": "iOS"
+    },
+    {
+        "speaker": "Marcin Moskała",
+        "title": "Superpowers of Property Delegation",
+        "description": "Let's dive into possibilities that Kotlin delegation gives. Let’s discover property delegation and understand its superpowers.",
+        "category": "Kotlin"
+    },
+    {
+        "speaker": "Zan Markan",
+        "title": "The State of The Kotlin Ecosystem",
+        "description": "Let's see what is the state of Kotlin nowadays and what is hot in the K universe.",
+        "category": "Kotlin"
+    },
+    {
+        "speaker": "Marcin Krzyzanowski",
+        "title": "Stories from the crypt(ography)",
+        "description": "Let's learn how to encrypt, what is a cipher, how to use AES or message authentication and deep dive into basic cryptography.",
+        "category": "iOS"
+    },
+    {
+        "speaker": "Cyril Mottier",
+        "title": "Themes, styles & more: from zero to hero",
+        "description": "Let's talk how to customize your Android application, reduce duplication in your code and make your styles cleaner.",
+        "category": "Android"
     }
 ]
