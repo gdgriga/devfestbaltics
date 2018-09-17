@@ -1,18 +1,18 @@
 +++
-title = "Cyril Mottier"
-date = 2018-08-28T19:58:15+03:00
+title = "Zan Markan"
+date = 2018-09-15T19:58:15+03:00
 draft = false
 outputs = ["html", "json"]
 
 # All information about speaker
-name = "Cyril Mottier"
-shortDescription = "Mobile Product Devsigner & Android expert. Product Engineering @Zenly/Snapchat."
-pictureURL = "/images/speakers/cyril-mottier.jpg"
+name = "Zan Markan"
+shortDescription = "Space Cowboy. Speaker. Immigrant. Developer avocado 🥑 Developer turned Evangelist @Pusher"
+pictureURL = "/images/speakers/zan.jpg"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json
 
 # Show him on the first page or not
-featured = false
+featured = true
 
 # Available tags: ["android", "kotlin", "ux", "ios", ""]
 tags = []
@@ -25,8 +25,8 @@ tags = []
 
 [[social]]
   type = "twitter"
-  display = "cyrilmottier"
-  url = "https://twitter.com/cyrilmottier"
+  display = "zmarkan"
+  url = "http://twitter.com/zmarkan"
 
 # [[social]]
 #   type = "facebook"
@@ -45,4 +45,4 @@ tags = []
 
 +++
 
-Cyril is Product Engineering Lead at Zenly. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. He is actively involved in mobile communities and shares his passion writing blog posts, creating open source libraries and giving talks. His motto: "Do less, but do it insanely great".
+Space Cowboy. Speaker. Immigrant. Developer avocado 🥑; Developer turned Evangelist @ Pusher; 🇪🇺 afficionado. Lover of everything hoppy

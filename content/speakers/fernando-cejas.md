@@ -6,7 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "Fernando Cejas"
-shortDescription = "Developer Advocate at IBM. SoundCloud Alumni. Curious learner."
+shortDescription = "Developer Advocate @IBM. SoundCloud Alumni. Curious learner."
 pictureURL = "/images/speakers/fernando-cejas.jpg"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "IBM" # !!! Check that this company is in data/companies.json

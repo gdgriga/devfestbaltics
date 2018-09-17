@@ -6,7 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "Marcin Krzyzanowski"
-shortDescription = "iOS Ninja at PSPDFKit and a Crypto fellow."
+shortDescription = "iOS Ninja @PSPDFKit and a Crypto fellow."
 pictureURL = "/images/speakers/marcin-krzyzanowski.jpg"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json
