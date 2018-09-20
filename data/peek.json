@@ -52,5 +52,11 @@
         "title": "Themes, styles & more: from zero to hero",
         "description": "Let's talk how to customize your Android application, reduce duplication in your code and make your styles cleaner.",
         "category": "Android"
+    },
+    {
+        "speaker": "Svyatoslav Scherbina",
+        "title": "Using Kotlin to share code between iOS and Android",
+        "description": "Svyatoslav will share his knowledge about the state of Kotlin Native project from a first hand expirience.",
+        "category": "Kotlin"
     }
 ]
