@@ -1,0 +1,70 @@
+{
+  "general": [
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    }
+  ],
+  "optimal": [
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    }
+  ],
+  "basic": [
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    }
+  ],
+  "media": [
+    {
+      "name": "Google",
+      "logoUrl": "/images/partners/placeholder.png",
+      "link": ""
+    }
+  ]
+}
