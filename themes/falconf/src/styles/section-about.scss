@@ -1,6 +1,12 @@
 @import 'colors.scss';
 
 .df-section-about {
+    a {
+        color: $punk-pink;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-decoration: underline;
+    }
     .df-image-container {
         text-align: center;
     }
