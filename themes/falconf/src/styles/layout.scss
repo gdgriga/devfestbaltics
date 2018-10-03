@@ -103,8 +103,7 @@ body {
     }
   }
 
-  &.active-call-for-paper,
-  &.active-schedule {
+  &.active-call-for-paper {
     background: $navy-blue;
     color: $punk-pink;
 
@@ -152,7 +151,7 @@ body {
     }
   }
 
-  &.active-tweets {
+  &.active-tweets, &.active-schedule {
     background: $navy-blue;
     color: $winter-sky-blue;
 
