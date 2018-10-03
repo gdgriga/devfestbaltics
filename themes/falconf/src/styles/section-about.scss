@@ -3,5 +3,11 @@
 .df-section-about {
     .df-image-container {
         text-align: center;
+        svg {
+            @include media-breakpoint-down(sm) {
+                width: 50%;
+            }
+        }
+
     }
 }
