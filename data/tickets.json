@@ -8,7 +8,7 @@
     },
     {
         "type": "Early bird",
-        "price": "69.95€",
+        "price": "SOLD OUT",
         "dateTextAbove": "Till",
         "dateTextBellow": "Oct 5",
         "enabled": false
