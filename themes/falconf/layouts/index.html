@@ -6,13 +6,15 @@
       <a href="#about">About</a>
       {{ if .Site.Params.sectionTickets.enabled }}
       <a href="{{ .Site.Params.sectionTickets.URL }}" target="_blank">Tickets</a>
-      {{ end }} {{ if .Site.Params.sectionCallForPaper.enabled }}
+      {{ end }}
+      {{ if .Site.Params.sectionCallForPaper.enabled }}
       <a href="#call-for-paper">Become a speaker</a>
-      {{ end }} {{ if .Site.Params.sectionWorkshops.enabled }}
-      <a href="#workshops">Workshops</a>
       {{ end }}
       {{ if .Site.Params.sectionSchedule.enabled }}
       <a href="#schedule">Schedule</a>
+      {{ end }}
+      {{ if .Site.Params.sectionWorkshops.enabled }}
+      <a href="#workshops">Workshops</a>
       {{ end }}
       <a href="#previous-videos">Previous event</a>
       <a href="#tweets">What people say</a>
@@ -126,15 +128,13 @@
         {{ end }}
         <!-- Section: Speakers -->
         {{ if .Site.Params.sectionTickets.enabled }} {{ partial "speakers.html" . }} {{ end }}
+        {{ if .Site.Params.sectionSchedule.enabled }} {{ partial "schedule.html" . }} {{ end }}
 
         <!-- Section: Workshops -->
         {{ if .Site.Params.sectionWorkshops.enabled }} {{ partial "workshops.html" . }} {{ end }}
 
         <!-- Section: Talks -->
         {{ if .Site.Params.sectionTalks.enabled }} {{ partial "talks.html" . }} {{ end }}
-
-        {{ if .Site.Params.sectionSchedule.enabled }} {{ partial "schedule.html" . }} {{ end }}
-
         <!-- Section: Call for paper -->
         {{ if .Site.Params.sectionCallForPaper.enabled }}
         <div class="row scroll-class" id="call-for-paper">
