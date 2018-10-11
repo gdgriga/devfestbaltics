@@ -18,7 +18,7 @@ theme = "falconf"
     enabled = true
     URL = "https://en.xing-events.com/DevFestBaltics2018.html"
 
-[params.sectionSchedule]
+[params.sectionTalks]
     enabled = true
 
 [params.sectionCallForPaper]
@@ -29,4 +29,7 @@ theme = "falconf"
     enabled = true
 
 [params.sectionWorkshops]
+    enabled = true
+
+[params.sectionSchedule]
     enabled = true
