@@ -58,5 +58,11 @@
         "title": "Using Kotlin to share code between iOS and Android",
         "description": "Svyatoslav will share his knowledge about the state of Kotlin Native project from a first hand expirience.",
         "category": "Kotlin"
+    },
+    {
+        "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
+        "title": "Integrating Your Android Apps with the Google Assistant",
+        "description": "In this talk, you'll learn how to integrate your Android app with the Google Assistant to reach new users and serve existing ones better.",
+        "category": "Google Assistant"
     }
 ]

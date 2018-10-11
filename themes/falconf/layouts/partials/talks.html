@@ -5,10 +5,10 @@
   {{ range $.Site.Data.peek }}
   <div class="col-12 col-md-4">
     <div class="talk">
-      <div class="text-left df-tag" style="margin-bottom: 10px;">@{{ .category }}</div>
+      <div class="text-left df-tag" style="margin-bottom: 10px;">//{{ .category }}</div>
       <div><strong>{{ .title }}</strong></div>
       <div>{{ .description }}</div>
-      <div class="text-right" style="margin-top:10px;">// {{ .speaker }}</div>
+      <div class="text-right" style="margin-top:10px;">{{ .speaker }}</div>
     </div>
   </div>
   {{end}}
