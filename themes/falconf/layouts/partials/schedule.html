@@ -75,14 +75,14 @@
             <span>{{ .speaker }}</span>
 
             {{ if .twitter }}
-            <a href="https://twitter.com/{{ .twitter }}" target="_blank"></a>
-            <span class="df-tag">@{{ .twitter }}</span>
+            <a href="https://twitter.com/{{ .twitter }}" target="_blank">
+              <span class="df-tag">@{{ .twitter }}</span>
             </a>
             {{ end }}
             {{ if .manyTwitters }}
             {{range .manyTwitters }}
-            <a href="https://twitter.com/{{ . }}" target="_blank"></a>
-            <span class="df-tag">@{{ . }}</span>
+            <a href="https://twitter.com/{{ . }}" target="_blank">
+              <span class="df-tag">@{{ . }}</span>
             </a>
             {{ end }}
             {{ end }}
