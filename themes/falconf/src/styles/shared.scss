@@ -30,3 +30,17 @@ a.df-button {
   border: 3px solid;
   box-sizing: content-box;
 }
+
+.line {
+  margin-top: 1em;
+  border-bottom: 3px solid;
+  color: inherit;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.bordered-frame {
+  border: 0.2em solid;
+  width: 100%;
+  padding: 1em;
+}

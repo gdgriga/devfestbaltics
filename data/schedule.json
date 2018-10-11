@@ -1,0 +1,182 @@
+[
+  {
+    "date": "Friday, November 16",
+    "timetable": [
+      {
+        "time": "09:00",
+        "type": "PROCESS",
+        "title": "Registration & breakfast"
+      },
+      {
+        "time": "10:00",
+        "type": "PROCESS",
+        "title": "Intro"
+      },
+      {
+        "time": "10:15",
+        "type": "ONE_TRACK",
+        "title": "Keynote: The art of coding disasters and failures",
+        "speaker": "Fernando Cejas",
+        "twitter": "fernando_cejas",
+        "imageUrl": "/images/speakers/fernando-cejas.jpg"
+      },
+      {
+        "time": "11:15",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "Android",
+            "title": "Superpowers of Property Delegation",
+            "speaker": "Marcin Moskała",
+            "twitter": "marcinmoskala",
+            "imageUrl": "/images/speakers/marcin-moskala.jpg"
+          },
+          {
+            "track": "iOS",
+            "title": "To be defined",
+            "speaker": "John Sundell",
+            "twitter": "johnsundell",
+            "imageUrl": "/images/speakers/john-sundell.jpg"
+          },
+          {
+            "track": "General",
+            "title": "IoT – Beyond prototyping",
+            "speaker": "Marcos Placona",
+            "twitter": "marcos_placona",
+            "imageUrl": "/images/speakers/marcos-placona.png"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "Android",
+            "title": "Themes, styles & more: from zero to hero",
+            "speaker": "Cyril Mottier",
+            "twitter": "cyrilmottier",
+            "imageUrl": "/images/speakers/cyril-mottier.jpg"
+          },
+          {
+            "track": "iOS",
+            "title": "How to use Cryptography for mobile developers - common mistakes",
+            "speaker": "Marcin Krzyzanowski",
+            "twitter": "krzyzanowskim",
+            "imageUrl": "/images/speakers/marcin-krzyzanowski.jpg"
+          },
+          {
+            "track": "General",
+            "title": "TBD",
+            "speaker": "Juhani Lehtimäki",
+            "twitter": "lehtimaeki",
+            "imageUrl": "/images/speakers/juhani-lehtimaki.jpg"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "Android",
+            "title": "Lunch"
+          },
+          {
+            "track": "iOS",
+            "title": "Dependency Injection",
+            "speaker": "Yoichi Tagaya",
+            "twitter": "yoichitgy",
+            "imageUrl": "/images/speakers/yoichi-tagaya.jpg"
+          },
+          {
+            "track": "General",
+            "title": "Can The Material Design Live Long And Prosper?",
+            "speaker": "R. Caner Yildirim",
+            "twitter": "protechman",
+            "imageUrl": "/images/speakers/resul.jpg"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "Android",
+            "title": "The State of The Kotlin Ecosystem",
+            "speaker": "Zan Markan",
+            "twitter": "zmarkan",
+            "imageUrl": "/images/speakers/zan.jpg"
+          },
+          {
+            "track": "iOS",
+            "title": "Lunch"
+          },
+          {
+            "track": "General",
+            "title": "Mobile first to AI first: Making mobile apps smart with Machine Learning",
+            "speaker": "Sergii Khomenko",
+            "twitter": "lc0d3r",
+            "imageUrl": "/images/speakers/sergii.png"
+          }
+        ]
+      },
+      {
+        "time": "15:45",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "General",
+            "title": "Integrating Your Android Apps with the Google Assistant",
+            "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
+            "manyTwitters": [
+              "aygul",
+              "kaanmamikoglu"
+            ],
+            "imageUrl": "/images/speakers/aygul-kaan.png"
+          },
+          {
+            "track": "iOS",
+            "title": "To be defined"
+          },
+          {
+            "track": "General",
+            "title": "Lunch"
+          }
+        ]
+      },
+      {
+        "time": "17:15",
+        "type": "THREE_TRACKS",
+        "talks": [
+          {
+            "track": "Android",
+            "title": "Using Kotlin to share code between iOS and Android",
+            "speaker": "Svyatoslav Scherbina",
+            "twitter": "",
+            "imageUrl": "/images/speakers/svjatoslav.png"
+          },
+          {
+            "track": "iOS",
+            "title": "To be defined"
+          },
+          {
+            "track": "General",
+            "title": "To be defined"
+          }
+        ]
+      },
+      {
+        "time": "18:30",
+        "type": "PROCESS",
+        "title": "Closing"
+      },
+      {
+        "time": "20:00",
+        "type": "PROCESS",
+        "title": "After party"
+      }
+    ]
+  }
+]

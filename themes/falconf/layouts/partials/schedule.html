@@ -1,15 +1,102 @@
-<div class="df-section-schedule row scroll-class" id="schedule">
-  <div class="col-12">
-    <h1>Topics</h1>
-  </div>
-  {{ range $.Site.Data.peek }}
-  <div class="col-12 col-md-4">
-    <div class="talk">
-      <div class="text-left df-tag" style="margin-bottom: 10px;">@{{ .category }}</div>
-      <div><strong>{{ .title }}</strong></div>
-      <div>{{ .description }}</div>
-      <div class="text-right" style="margin-top:10px;">// {{ .speaker }}</div>
+<div class="df-section-schedule scroll-class" id="schedule">
+  {{ range $.Site.Data.schedule }}
+  <div class="row">
+    <div class="col-12">
+      <h1>Schedule</h1>
+    </div>
+    <div class="col-12 schedule-date">
+      <h2>{{ .date }}</h2>
+      <div class="line"></div>
     </div>
   </div>
-  {{end}}
+  {{ range .timetable }}
+  {{ if eq .type "PROCESS" }}
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <div class="text-left time">{{ .time }}</div>
+    </div>
+    <div class="col-12 col-md-8">
+      <div class="text-left process">{{ .title }}</div>
+    </div>
+    <div class="col-12">
+      <div class="line"></div>
+    </div>
+  </div>
+  {{ end }}
+  {{ if eq .type "ONE_TRACK" }}
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <div class="text-left time">{{ .time }}</div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="name">
+        <div class="text-left name">{{ .title }}</div>
+      </div>
+      <div class="author">
+        <img src="{{ .imageUrl }}" alt="">
+        <div class="author-wrapper">
+          <span>{{ .speaker }}</span>
+          <a href="https://twitter.com/{{ .twitter }}" target="_blank">
+            <span class="df-tag">@{{ .twitter }}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="line"></div>
+    </div>
+  </div>
+  {{ end }}
+  {{ if eq .type "THREE_TRACKS" }}
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <div class="text-left time">{{ .time }}</div>
+    </div>
+  </div>
+  <div class="row">
+    {{range .talks }}
+    <div class="col-12 col-lg-4">
+      <div class="bordered-frame">
+        <span class="track">//{{ .track }}</span>
+        {{ if or (eq .title "Lunch") (eq .title "To be defined") }}
+        <div class="name">
+          <div class="text-left process">{{ .title }}</div>
+        </div>
+        {{ else }}
+        <div class="name">
+          <div class="text-left name">{{ .title }}</div>
+        </div>
+        {{ if .description }}
+        <p>{{ .description }}</p>
+        {{ end }}
+        <div class="author">
+          <img src="{{ .imageUrl }}" alt="">
+          <div class="author-wrapper">
+            <span>{{ .speaker }}</span>
+
+            {{ if .twitter }}
+            <a href="https://twitter.com/{{ .twitter }}" target="_blank"></a>
+            <span class="df-tag">@{{ .twitter }}</span>
+            </a>
+            {{ end }}
+            {{ if .manyTwitters }}
+            {{range .manyTwitters }}
+            <a href="https://twitter.com/{{ . }}" target="_blank"></a>
+            <span class="df-tag">@{{ . }}</span>
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    <div class="col-12">
+      <div class="line"></div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ end }}
 </div>
