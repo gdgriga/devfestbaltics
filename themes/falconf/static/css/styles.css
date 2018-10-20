@@ -6607,6 +6607,9 @@ span {
 .schedule-date {
   padding-bottom: 1rem; }
 
+#workshops .time {
+  font-family: 'Roboto Mono', monospace; }
+
 #workshops .workshop-name {
   text-transform: uppercase;
   font-family: 'Roboto Mono', monospace;
@@ -6654,6 +6657,16 @@ body #df-wrapper .df-main-content #schedule .row {
     font-weight: 500;
     margin-bottom: 2em;
     letter-spacing: -0.05em; }
+    #schedule .name button {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      text-decoration: underline;
+      opacity: 0.5; }
   #schedule p {
     opacity: 0.8; }
   #schedule .author {
@@ -6675,6 +6688,18 @@ body #df-wrapper .df-main-content #schedule .row {
       display: block;
       text-decoration: none;
       color: inherit; }
+
+.modal {
+  color: #020203 !important; }
+
+.paragraph-title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  margin-bottom: 1em;
+  display: block; }
+
+.modal-body {
+  font-size: 0.8rem; }
 
 .df-footer .df-social-icons {
   margin-top: 1em; }
