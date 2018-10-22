@@ -6,7 +6,7 @@ outputs = ["html", "json"]
 
 # All information about speaker
 name = "Sergii Khomenko"
-shortDescription = "Google Developer Expert in Machine Learning. Organizer of Hacking Machine Learning meetup in Munich."
+shortDescription = "Google Developer Expert in Machine Learning. Head of Product Service and Data Platform @ Stylight."
 pictureURL = "/images/speakers/sergii.png"
 country = "" # !!! ISO Alpha-2 code (Example: UK)
 company = "" # !!! Check that this company is in data/companies.json
@@ -15,7 +15,7 @@ company = "" # !!! Check that this company is in data/companies.json
 featured = false
 
 # Available tags: ["android", "kotlin", "ux", "ios", ""]
-tags = ["android"]
+tags = ["ML"]
 
 # Remove any that not applies
 # [[social]]

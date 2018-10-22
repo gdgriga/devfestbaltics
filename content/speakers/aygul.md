@@ -15,7 +15,7 @@ company = "" # !!! Check that this company is in data/companies.json
 featured = false
 
 # Available tags: ["android", "kotlin", "ux", "ios", ""]
-tags = ["android"]
+tags = ["assistant"]
 
 # Remove any that not applies
 # [[social]]
