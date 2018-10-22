@@ -7,6 +7,9 @@
     <div class="line"></div>
   </div>
   {{ range $.Site.Data.workshops }}
+  <div class="col-12">
+    <div class="text-left time">{{ .time }}</div>
+  </div>
   <div class="col-12 col-md-4">
     <div class="workshop-name">
       <div class="text-left workshop-name">{{ .name }}</div>
