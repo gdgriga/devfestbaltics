@@ -17,6 +17,7 @@
         "type": "ONE_TRACK",
         "title": "Keynote: The art of coding disasters and failures",
         "speaker": "Fernando Cejas",
+        "firstName": "Fernando",
         "twitter": "fernando_cejas",
         "imageUrl": "/images/speakers/fernando-cejas.jpg"
       },
@@ -25,25 +26,37 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
+            "id": "marcin",
             "track": "Android",
             "title": "Superpowers of Property Delegation",
             "speaker": "Marcin Moskała",
+            "firstName": "Marcin",
             "twitter": "marcinmoskala",
-            "imageUrl": "/images/speakers/marcin-moskala.jpg"
+            "imageUrl": "/images/speakers/marcin-moskala.jpg",
+            "description": "",
+            "bio": ""
           },
           {
+            "id": "john",
             "track": "iOS",
-            "title": "To be defined",
+            "title": "Coding for Curiosity",
             "speaker": "John Sundell",
+            "firstName": "John",
             "twitter": "johnsundell",
-            "imageUrl": "/images/speakers/john-sundell.jpg"
+            "imageUrl": "/images/speakers/john-sundell.jpg",
+            "description": "There can be many different reasons for starting a project and for writing code. Not all code we write needs to end up in production - and coding for learning, to build prototypes, or to satisfy your inner curiosity, can be really valuable. In this talk, John will show how he approaches new coding projects, how he breaks down what at first might seem like impossible tasks, and why he loves to code for curiosity.",
+            "bio": "Creator of 'Swift by Sundell' — weekly blog about Swift development."
           },
           {
+            "id": "marcos",
             "track": "General",
             "title": "IoT – Beyond prototyping",
             "speaker": "Marcos Placona",
+            "firstName": "Marcos",
             "twitter": "marcos_placona",
-            "imageUrl": "/images/speakers/marcos-placona.png"
+            "imageUrl": "/images/speakers/marcos-placona.png",
+            "description": "",
+            "bio": ""
           }
         ]
       },
@@ -52,25 +65,40 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
+            "id": "cyril",
             "track": "Android",
             "title": "Themes, styles & more: from zero to hero",
             "speaker": "Cyril Mottier",
+            "firstName": "Cyril",
             "twitter": "cyrilmottier",
-            "imageUrl": "/images/speakers/cyril-mottier.jpg"
+            "imageUrl": "/images/speakers/cyril-mottier.jpg",
+            "description": "Haven’t you ever wanted to globally change the appearance of your `EditText`s or the font face of all `TextView`s in your Android application? Themes and styles have always been at the heart of Android development when it comes to UI design. They have been around since API 1 after all and a lot of the Android features are built around them. But do you even know how themes and styles works? What is an attribute? And can you explain the difference between a style, a theme, a text appearance or a theme overlay? If you have never heard of styles and themes or are not entirely sure you can answer the questions above, this presentation is made for you. This talk will dive deep into the Android styling and theming system. You will learn how to leverage it to customize your Android application, reduce duplication in your code and make your styles cleaner, more manageable and more reusable",
+            "bio": "Cyril is Product Engineering Lead at Zenly. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. He is actively involved in mobile communities and shares his passion writing blog posts, creating open source libraries and giving talks. His motto: Do less, but do it insanely great."
           },
           {
+            "id": "marcin-k",
             "track": "iOS",
             "title": "How to use Cryptography for mobile developers - common mistakes",
             "speaker": "Marcin Krzyzanowski",
+            "firstName": "Marcin",
             "twitter": "krzyzanowskim",
-            "imageUrl": "/images/speakers/marcin-krzyzanowski.jpg"
+            "imageUrl": "/images/speakers/marcin-krzyzanowski.jpg",
+            "description": "",
+            "bio": ""
           },
           {
+            "id": "juhani",
             "track": "General",
-            "title": "TBD",
-            "speaker": "Juhani Lehtimäki",
-            "twitter": "lehtimaeki",
-            "imageUrl": "/images/speakers/juhani-lehtimaki.jpg"
+            "title": "How To Bring A Product To Reality In A Few Days: Design-Dev Cooperation And Fast Android Prototyping",
+            "speaker": "Juhani Lehtimäki & Pierluigi Rufo",
+            "firstName": "Juhani & Pierluigi",
+            "manyTwitters": [
+              "lehtimaeki",
+              "pierluigirufo"
+            ],
+            "imageUrl": "/images/speakers/juhani-pierluigi.png",
+            "description": "Developers and designers want the same thing: the best possible product out there. However, cooperation between the two vastly different disciplines is rarely seamless. What can be done to make the dev-design interaction work better? How can we improve the communication and cooperation? In this joint talk, with a developer and a designer, Juhani and Pierluigi will share with you usual pain points from both points of view and explain how to best avoid them. You will also learn how a seamless cooperation can lead into a new wave of very rapid prototyping using Android as the platform. The tools and libraries available for Android designers and developers now allow small teams of two to build complete functional prototypes in just two days. Juhani and Pierluigi will also explore how to best get detailed designs communicated in a form that developers will understand them and how they best get feedback from designers for adding that extra polish to projects and prototypes.",
+            "bio": ""
           }
         ]
       },
@@ -83,18 +111,26 @@
             "title": "Lunch"
           },
           {
+            "id": "yoichi",
             "track": "iOS",
             "title": "Dependency Injection",
             "speaker": "Yoichi Tagaya",
+            "firstName": "Yoichi",
             "twitter": "yoichitgy",
-            "imageUrl": "/images/speakers/yoichi-tagaya.jpg"
+            "imageUrl": "/images/speakers/yoichi-tagaya.jpg",
+            "description": "Dependency injection (DI) was introduced as one of the modern best practices at a past WWDC, and is getting popular to make iOS apps maintainable, scalable and testable. To apply DI pattern, a DI container is often used to define a dependency graph to retrieve instances with their dependencies resolved. In this talk, the original author of Swinject, the most popular DI framework for Swift/iOS, will introduce DI pattern for iOS apps. The talk is based on the speaker’s experience developing a production app used by tens of millions of users. The talk covers: - Basic concept and motivation of dependency injection in dependency inversion principle. - Comparison of iOS architectures, e.g. MVC, MVVM and VIPER. - Introduction of a minimum architecture to apply dependency injection. - Practical structure to configure dependency definitions using Swinject Container, Assembly and Assembler. - Unit testing with test doubles and dependency injection.",
+            "bio": "Yoichi is the original author of Swinject, which is the first and most popular dependency injection framework written in and for Swift. He is an iOS engineer and engineering manager at Mercari, which provides a marketplace app for anyone to buy and sell items in US, UK and Japan."
           },
           {
+            "id": "caner",
             "track": "General",
             "title": "Can The Material Design Live Long And Prosper?",
             "speaker": "R. Caner Yildirim",
+            "firstName": "Caner",
             "twitter": "protechman",
-            "imageUrl": "/images/speakers/resul.jpg"
+            "imageUrl": "/images/speakers/resul.jpg",
+            "description": "",
+            "bio": "Caner is a UX designer who is also a technology geek. Mainly focused on the design, business strategy and marketing of mobile applications. Passionate about good UX, IoT, and Android. Previously he worked for leading companies of Turkey on mobile projects. Today, he is the founder of Artisan UX a design agency based in Istanbul making and creating apps that users love. Caner has been a user group leader at GDG Istanbul since 2013, organizing, participating, and speaking at events. He shares his experience in User Research, Interaction Design and UX Strategy via talks or workshops at Droidcons, DevFests, and other conferences."
           }
         ]
       },
@@ -103,22 +139,30 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
+            "id": "zan",
             "track": "Android",
             "title": "The State of The Kotlin Ecosystem",
             "speaker": "Zan Markan",
+            "firstName": "Zan",
             "twitter": "zmarkan",
-            "imageUrl": "/images/speakers/zan.jpg"
+            "imageUrl": "/images/speakers/zan.jpg",
+            "description": "",
+            "bio": "Space Cowboy. Speaker. Immigrant. Developer avocado 🥑; Developer turned Evangelist @ Pusher; 🇪🇺 afficionado. Lover of everything hoppy."
           },
           {
             "track": "iOS",
             "title": "Lunch"
           },
           {
+            "id": "sergii",
             "track": "General",
             "title": "Mobile first to AI first: Making mobile apps smart with Machine Learning",
             "speaker": "Sergii Khomenko",
+            "firstName": "Sergii",
             "twitter": "lc0d3r",
-            "imageUrl": "/images/speakers/sergii.png"
+            "imageUrl": "/images/speakers/sergii.png",
+            "description": "Google has announced, that they are switching from mobile first to AI first. News are going crazy about AI. Companies, raise hundreds of millions by just mentioning keywords of Artificial Intelligence and Deep Learning. But what does it mean for actual production use-case? Where is the line between the hype and how easy is to apply these technologies? In the talk, we start with basic concepts of Machine Learning, explaining tensors and advantages of Tensorflow, shifting more into the direction of practical examples of how one can apply mentioned technologies without going too deep into mathematics. The talk has a strong focus on how to use Machine Learning in practical ways for mobile apps. Starting with mobile serving based Tensorflow Lite and introducing to seamless integration based on the brand new MLKit.",
+            "bio": "Sergii is Google Developer Expert in Machine Learning. In his free time, he organizes Hacking Machine Learning meetup in Munich, that currently has more than 1300 members and hosts monthly events. Over the weekends he enjoys sharing his knowledge as a conference speaker or open source and machine learning ambassador. In his work time, he works on democratizing fashion with Stylight, one of the biggest fashion communities in the world. Given more than 30 million products live over more than 1000 shops in 17 countries, using machine learning and data science is one of the ways to make Stylight a great place to discover products."
           }
         ]
       },
@@ -127,18 +171,25 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
-            "track": "General",
+            "id": "wojtek",
+            "track": "Android",
             "title": "Integrating Your Android Apps with the Google Assistant",
-            "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
-            "manyTwitters": [
-              "aygul",
-              "kaanmamikoglu"
-            ],
-            "imageUrl": "/images/speakers/aygul-kaan.png"
+            "speaker": "Wojtek Kaliciński",
+            "firstName": "Aygul and Kaan",
+            "twitter": "wkalic",
+            "imageUrl": "/images/speakers/wojtek.jpg",
+            "description": "",
+            "bio": ""
           },
           {
             "track": "iOS",
-            "title": "To be defined"
+            "title": "Core ML for everyone",
+            "speaker": "Paul Hudson",
+            "firstName": "Paul",
+            "twitter": "twostraws",
+            "imageUrl": "/images/speakers/paul-hudson.jpg",
+            "description": "Any app can benefit from machine learning, and by pairing Create ML with Core ML Apple has given us all the tools required to get started. In this presentation you’ll get a brief introduction to these two technologies, followed by a live demo of creating a complete ML-powered app from scratch. Whether you want sentiment analysis, image recognition, or regression analysis, Create ML and Core ML provide a powerful duo that can add functionality to your app in just a few minutes. While there is some mathematics involved, these will all be covered so you won’t need any pre-existing knowledge to get the most from this session.",
+            "bio": ""
           },
           {
             "track": "General",
@@ -151,19 +202,33 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
+            "id": "svyatoslav",
             "track": "Android",
             "title": "Using Kotlin to share code between iOS and Android",
             "speaker": "Svyatoslav Scherbina",
+            "firstName": "Svyatoslav",
             "twitter": "",
-            "imageUrl": "/images/speakers/svjatoslav.png"
+            "imageUrl": "/images/speakers/svjatoslav.png",
+            "description": "",
+            "bio": "Svyatoslav Scherbina is a developer interested in programming languages design and implementation. Currently he works as software developer on Kotlin/Native project at JetBrains and appears to be responsible for bridging Kotlin and iOS worlds. Previously he used to work at Excelsior LLC on Excelsior JET project, certified Java SE implementation with AOT compiler."
           },
           {
             "track": "iOS",
             "title": "To be defined"
           },
           {
+            "id": "aygul",
             "track": "General",
-            "title": "To be defined"
+            "title": "Integrating Your Android Apps with the Google Assistant",
+            "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
+            "firstName": "Aygul and Kaan",
+            "manyTwitters": [
+              "aygul",
+              "kaanmamikoglu"
+            ],
+            "imageUrl": "/images/speakers/aygul-kaan.png",
+            "description": "Google Assistant is now available on over 500 million devices around the world. It enables you to engage with your new and existing users in completely new ways — through the rich contextual, conversational, and inter-modal experiences. As an Android developer, you can use the same development mechanism that you use for App Actions to create conversational actions to bring your service to the new smart devices. In this talk, you’ll learn how to integrate your Android app with the Google Assistant to reach new users and serve existing ones better. We’ll cover adding conversational functionality to your projects, defining custom grammars, and participating in vertical programs.",
+            "bio": "Dr. Aygul Zagidullina is a passionate Actions on Google developer. She is a Director of Social Media at MotaWord. Previously, Aygul worked at Todoist and Google. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world."
           }
         ]
       },

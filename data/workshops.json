@@ -1,18 +1,11 @@
 [
   {
     "name": "Swift Design Patterns",
+    "time": "10:00-14:00",
     "mentor": "Paul Hudson",
     "twitter": "twostraws",
     "url": "https://twitter.com/twostraws",
     "photo": "/images/speakers/paul-hudson.jpg",
     "description": "In this workshop you'll get hands-on examples of the most important patterns available to Swift developers, so you can try using them, re-using them, and refactoring them into your own work."
-  },
-  {
-    "name": "Migration from Java to Kotlin",
-    "mentor": "Marcin Moskała",
-    "twitter": "marcinmoskala",
-    "url": "https://twitter.com/marcinmoskala",
-    "photo": "/images/speakers/marcin-moskala.jpg",
-    "description": "Kotlin is now the official language of Android development, first-class citizen on Spring and more and more popular alternative not only to Java but also to JavaScript. Learning it in one day? Impossible, but enough to lay the foundation. Let's explain everything that is needed to jump into Kotlin and to be able to enjoy learning it further. Let's move on with Kotlin!"
   }
 ]
