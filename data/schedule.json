@@ -26,13 +26,13 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
-            "id": "marcin",
+            "id": "wojtek",
             "track": "Android",
-            "title": "Superpowers of Property Delegation",
-            "speaker": "Marcin Moskała",
-            "firstName": "Marcin",
-            "twitter": "marcinmoskala",
-            "imageUrl": "/images/speakers/marcin-moskala.jpg",
+            "title": "Integrating Your Android Apps with the Google Assistant",
+            "speaker": "Wojtek Kaliciński",
+            "firstName": "Aygul and Kaan",
+            "twitter": "wkalic",
+            "imageUrl": "/images/speakers/wojtek.jpg",
             "description": "",
             "bio": ""
           },
@@ -171,13 +171,13 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
-            "id": "wojtek",
+            "id": "marcin",
             "track": "Android",
-            "title": "Integrating Your Android Apps with the Google Assistant",
-            "speaker": "Wojtek Kaliciński",
-            "firstName": "Aygul and Kaan",
-            "twitter": "wkalic",
-            "imageUrl": "/images/speakers/wojtek.jpg",
+            "title": "Superpowers of Property Delegation",
+            "speaker": "Marcin Moskała",
+            "firstName": "Marcin",
+            "twitter": "marcinmoskala",
+            "imageUrl": "/images/speakers/marcin-moskala.jpg",
             "description": "",
             "bio": ""
           },
