@@ -33,3 +33,6 @@ theme = "falconf"
 
 [params.sectionSchedule]
     enabled = true
+
+[params.sectionPartners]
+    enabled = true

@@ -88,10 +88,13 @@
             </svg>
           </div>
           <div class="col-12 col-md-4">
-            <h1>WHAT YOU WILL LEARN?</h1>
-            <p>New, hot topics about mobile development, Android and iOS, Mobile Crossplatform tools, UI/UX and
-              prototyping,
-              Internet of Things, VR and AR, bots, AI, ML and more!</p>
+            <<<<<<< HEAD <h1>WHAT YOU WILL LEARN?</h1>
+              =======
+              <h1>WHAT YOU WILL LEARN</h1>
+              >>>>>>> Add partners section
+              <p>New, hot topics about mobile development, Android and iOS, Mobile Crossplatform tools, UI/UX and
+                prototyping,
+                Internet of Things, VR and AR, bots, AI, ML and more!</p>
           </div>
         </div>
 
@@ -246,6 +249,9 @@
             <img class="df-gray" src="/images/cejas.jpg" alt="">
           </div>
         </div>
+
+        <!-- Section: Workshops -->
+        {{ if .Site.Params.sectionPartners.enabled }} {{ partial "partners.html" . }} {{ end }}
 
         <!-- Section: Subscribe -->
         <div class="row df-footer scroll-class" id="subscribe">
