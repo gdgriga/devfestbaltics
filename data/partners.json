@@ -2,69 +2,49 @@
   "general": [
     {
       "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
+      "logoUrl": "/images/partners/google.png",
+      "link": "https://www.google.com/about/",
+      "width": "100%"
     }
   ],
   "optimal": [
     {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
+      "name": "C.T.Co",
+      "logoUrl": "/images/partners/ctco.svg",
+      "link": "https://ctco.lv/",
+      "width": "90%"
     },
     {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
+      "name": "Pipedrive",
+      "logoUrl": "/images/partners/pipedrive.png",
+      "link": "https://www.pipedrive.com",
+      "width": "100%"
     },
     {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
+      "name": "Mercari",
+      "logoUrl": "/images/partners/mercari.png",
+      "link": "https://www.mercari.com/",
+      "width": "100%"
+    },
+    {
+      "name": "Chili Labs",
+      "logoUrl": "/images/partners/chili.png",
+      "link": "https://chi.lv/",
+      "width": "50%"
+    },
+    {
+      "name": "Lokalise",
+      "logoUrl": "/images/partners/lokalise.png",
+      "link": "https://lokalise.co/",
+      "width": "100%"
     }
   ],
   "basic": [
     {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    },
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
-    }
-  ],
-  "media": [
-    {
-      "name": "Google",
-      "logoUrl": "/images/partners/placeholder.png",
-      "link": ""
+      "name": "Ubiquiti",
+      "logoUrl": "/images/partners/ubnt.png",
+      "link": "https://www.ubnt.com/",
+      "width": "50%"
     }
   ]
 }

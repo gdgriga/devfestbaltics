@@ -7,8 +7,8 @@
   </div>
   {{ range $.Site.Data.partners.general }}
   <div class="col-12 col-md-4">
-    <a href="{{ .link }}">
-      <img src="{{ .logoUrl }}" alt="{{ .name }}">
+    <a href="{{ .link }}" target="_blank">
+      <img width="{{ .width }}" src="{{ .logoUrl }}" alt="{{ .name }}">
     </a>
   </div>
   {{ end }}
@@ -17,15 +17,15 @@
   </div>
   {{ range $.Site.Data.partners.optimal }}
   <div class="col-12 col-md-3">
-    <a href="{{ .link }}">
-      <img src="{{ .logoUrl }}" alt="{{ .name }}">
+    <a href="{{ .link }}" target="_blank">
+      <img width="{{ .width }}" src="{{ .logoUrl }}" alt="{{ .name }}">
     </a>
   </div>
   {{ end }}
   {{ range $.Site.Data.partners.basic }}
   <div class="col-12 col-md-2">
-    <a href="{{ .link }}">
-      <img src="{{ .logoUrl }}" alt="{{ .name }}">
+    <a href="{{ .link }}" target="_blank">
+      <img width="{{ .width }}" src="{{ .logoUrl }}" alt="{{ .name }}">
     </a>
   </div>
   {{ end }}
@@ -34,8 +34,8 @@
   </div>
   {{ range $.Site.Data.partners.media }}
   <div class="col-12 col-md-3">
-    <a href="{{ .link }}">
-      <img src="{{ .logoUrl }}" alt="{{ .name }}">
+    <a href="{{ .link }}" target="_blank">
+      <img width="{{ .width }}" src="{{ .logoUrl }}" alt="{{ .name }}">
     </a>
   </div>
   {{ end }}
