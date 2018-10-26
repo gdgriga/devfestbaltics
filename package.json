@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "firebase-tools": "^3.17.6"
+    "firebase-tools": "^6.0.0"
   }
 }
