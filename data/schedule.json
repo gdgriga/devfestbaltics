@@ -98,7 +98,7 @@
             ],
             "imageUrl": "/images/speakers/juhani-pierluigi.png",
             "description": "Developers and designers want the same thing: the best possible product out there. However, cooperation between the two vastly different disciplines is rarely seamless. What can be done to make the dev-design interaction work better? How can we improve the communication and cooperation? In this joint talk, with a developer and a designer, Juhani and Pierluigi will share with you usual pain points from both points of view and explain how to best avoid them. You will also learn how a seamless cooperation can lead into a new wave of very rapid prototyping using Android as the platform. The tools and libraries available for Android designers and developers now allow small teams of two to build complete functional prototypes in just two days. Juhani and Pierluigi will also explore how to best get detailed designs communicated in a form that developers will understand them and how they best get feedback from designers for adding that extra polish to projects and prototypes.",
-            "bio": ""
+            "bio": "Juhani is an Android enthusiast. Developer. Design fanboy. Founder at Snapp Mobile Germany. Google Developer Expert on Android"
           }
         ]
       },
@@ -146,8 +146,8 @@
             "firstName": "Marcin",
             "twitter": "marcinmoskala",
             "imageUrl": "/images/speakers/marcin-moskala.jpg",
-            "description": "",
-            "bio": ""
+            "description": "Property delegation is pretty new feature in the programming world and most developers use only small amount of possibilities it provides. On the other hand, class delegation is known for decades and it was promoted by big authorities. All it needed was language support, which was introduced in Kotlin. On this session, we are going to dive into possibilities that Kotlin delegation gives. Let’s discover this features and understand its superpowers.",
+            "bio": "Marcin Moskala is an experienced Android developer passionate about Kotlin since its early beta release. He is the creator of Kotlin Academy and author of the book “Android Development with Kotlin”. He is Kotlin evangelist and the main author on the biggest medium publication about Kotlin: blog.kotlin-academy.com. He is also the autor of libraries like ActivityStarter, ArcSeekBar, KotlinAndroidViewBinding and PreferenceHolder. Marcin is active in the programming and open source community and is also passionate about cognitive and data science."
           },
           {
             "track": "iOS",
