@@ -50,13 +50,13 @@
           {
             "id": "marcos",
             "track": "General",
-            "title": "IoT – Beyond prototyping",
+            "title": "These are a few of my favourite (Android) Things",
             "speaker": "Marcos Placona",
             "firstName": "Marcos",
             "twitter": "marcos_placona",
             "imageUrl": "/images/speakers/marcos-placona.png",
-            "description": "",
-            "bio": ""
+            "description": "Android Things lets you build professional, mass-market products on a trusted platform without previous knowledge of embedded systems. It is estimated that by 2020 there will be 50 billion connected things.\nBut what does it take to get started with Android Things and be able to say you’re truly working with the Internet of Things? How can you learn this platform and get ahead of the IoT revolution using your existing Android skills?\nIn this session, we will explore what Android Things is and how you can get started building real-life IoT applications with your existing Android knowledge.\nWe will then build an Android Things application using a Android Studio - the IDE you already use and love and a few components.",
+            "bio": "Marcos is a developer evangelist at Twilio and a GDE. He serves communities in London and all over Europe. He is passionate about technology and security and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices."
           }
         ]
       },
