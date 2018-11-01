@@ -29,6 +29,7 @@
     </a>
   </div>
   {{ end }}
+  {{ if $.Site.Data.partners.media }}
   <div class="col-12">
     <h2>Media partners</h2>
   </div>
@@ -38,5 +39,6 @@
       <img width="{{ .width }}" src="{{ .logoUrl }}" alt="{{ .name }}">
     </a>
   </div>
+  {{ end }}
   {{ end }}
 </div>
