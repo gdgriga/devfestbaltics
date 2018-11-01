@@ -209,7 +209,7 @@
             "firstName": "Svyatoslav",
             "twitter": "",
             "imageUrl": "/images/speakers/svjatoslav.png",
-            "description": "",
+            "description": "This talk is devoted to using Kotlin to share code between Android and iOS. It also covers Kotlin features and evolution making this possible and convenient. Kotlin Multiplatform Programming is a technology for multiplatform programming in Kotlin. It supports combining both common and platform-specific code in a single codebase with proper tooling enabled. Kotlin/Native is a technology for compiling Kotlin code to native binaries. Kotlin code has seamless interoperability with native platform (e.g. iOS) in this case. The speaker will describe how Kotlin/Native works, what is supported and what is not.",
             "bio": "Svyatoslav Scherbina is a developer interested in programming languages design and implementation. Currently he works as software developer on Kotlin/Native project at JetBrains and appears to be responsible for bridging Kotlin and iOS worlds. Previously he used to work at Excelsior LLC on Excelsior JET project, certified Java SE implementation with AOT compiler."
           },
           {
