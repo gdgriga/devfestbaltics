@@ -6,6 +6,19 @@
     "twitter": "twostraws",
     "url": "https://twitter.com/twostraws",
     "photo": "/images/speakers/paul-hudson.jpg",
-    "description": "In this workshop you'll get hands-on examples of the most important patterns available to Swift developers, so you can try using them, re-using them, and refactoring them into your own work."
+    "description": "In this workshop you'll get hands-on examples of the most important patterns available to Swift developers, so you can try using them, re-using them, and refactoring them into your own work.",
+    "ticketEnabled": true,
+    "ticketTitle": "Get ticket",
+    "ticketUrl": "https://en.xing-events.com/DevFestBaltics2018.html"
+  },
+  {
+    "name": "Build your first Android app!",
+    "time": "10:00-14:00",
+    "mentor": "Sergejs Luhmirins",
+    "photo": "/images/speakers/sergejs.png",
+    "description": "Have you ever wondered how to write an Android app? Is it as easy as some people say? Let’s find out together at this workshop organized by Women Techmakers Latvia! In this event we will learn about basic parts that make up any Android app, learn some Kotlin - official and awesome programming language for Android development, create a simple note taking app to have hands-on experience. Programming experience is not required, but it will be an advantage.",
+    "ticketEnabled": true,
+    "ticketTitle": "Register for free",
+    "ticketUrl": "https://www.meetup.com/GDG-Riga/events/256061123/"
   }
 ]
