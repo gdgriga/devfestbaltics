@@ -19,7 +19,7 @@ theme = "falconf"
     URL = "https://en.xing-events.com/DevFestBaltics2018.html"
 
 [params.sectionTalks]
-    enabled = true
+    enabled = false
 
 [params.sectionCallForPaper]
     enabled = false
