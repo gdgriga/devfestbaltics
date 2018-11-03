@@ -17,9 +17,11 @@
         <img class="round-photo" src="{{ .photo }}" alt="">
         <div class="author-wrapper">
           <span>{{ .mentor }}</span>
+          {{ if .twitter }}
           <a href="{{ .url }}" target="_blank">
             <span class="df-tag">@{{ .twitter }}</span>
           </a>
+          {{ end }}
         </div>
       </div>
     </div>
@@ -30,8 +32,8 @@
     </div>
   </div>
   <div class="col-12 col-md-4 text-center">
-    {{ if $.Param "sectionTickets.enabled" }}
-    <a class="buy-button" target="_blank" href="{{ $.Param "sectionTickets.URL" }}">Get ticket</a>
+    {{ if .ticketEnabled }}
+    <a class="buy-button" target="_blank" href="{{ .ticketUrl }}">{{ .ticketTitle }}</a>
     {{ end }}
   </div>
   <div class="col-12">
