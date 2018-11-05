@@ -46,5 +46,55 @@
       "link": "https://www.ubnt.com/",
       "width": "50%"
     }
+  ],
+  "media": [
+    {
+      "name": "ProAndroidDev",
+      "logoUrl": "/images/media/proandroiddev.png",
+      "link": "https://proandroiddev.com/",
+      "width": "100%"
+    },
+    {
+      "name": "JetBrains",
+      "logoUrl": "/images/media/jetbrains.png",
+      "link": "https://www.jetbrains.com/",
+      "width": "50%"
+    },
+    {
+      "name": "GDG Vilnius",
+      "logoUrl": "/images/media/gdg-vilnius.png",
+      "link": "https://www.meetup.com/Google-Developer-Group-Vilnius/",
+      "width": "100%"
+    },
+    {
+      "name": "GDG Tartu",
+      "logoUrl": "/images/media/gdg-vilnius.png",
+      "link": "https://www.meetup.com/Google-Developer-Group-Vilnius/",
+      "width": "100%"
+    },
+    {
+      "name": "GDG Kaunas",
+      "logoUrl": "/images/media/gdg-kaunas.png",
+      "link": "https://www.meetup.com/GDG-Kaunas/",
+      "width": "100%"
+    },
+    {
+      "name": "Riga Tech Girls",
+      "logoUrl": "/images/media/rtg.png",
+      "link": "http://www.rigatechgirls.org/",
+      "width": "50%"
+    },
+    {
+      "name": "Vilnius Girls Code",
+      "logoUrl": "/images/media/vgc.png",
+      "link": "https://www.facebook.com/vilniusgirlscode/",
+      "width": "70%"
+    },
+    {
+      "name": "GitHub",
+      "logoUrl": "/images/media/github.png",
+      "link": "https://github.com",
+      "width": "100%"
+    }
   ]
 }
