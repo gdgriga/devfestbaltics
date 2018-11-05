@@ -15,9 +15,9 @@
     },
     {
         "type": "Regular",
-        "price": "99.95€",
+        "price": "SOLD OUT",
         "dateTextAbove": "Till",
         "dateTextBellow": "Nov 5",
-        "enabled": true
+        "enabled": false
     }
 ]
