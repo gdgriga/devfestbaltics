@@ -213,8 +213,15 @@
             "bio": "Svyatoslav Scherbina is a developer interested in programming languages design and implementation. Currently he works as software developer on Kotlin/Native project at JetBrains and appears to be responsible for bridging Kotlin and iOS worlds. Previously he used to work at Excelsior LLC on Excelsior JET project, certified Java SE implementation with AOT compiler."
           },
           {
+            "id": "laura",
             "track": "iOS",
-            "title": "To be defined"
+            "title": "Mobile Game Development in Baltics: statistics and opportunities",
+            "speaker": "Laura Vilsone",
+            "firstName": "Laura",
+            "twitter": "",
+            "imageUrl": "/images/speakers/laura.jpg",
+            "description": "Baltics in mobile game development: How do we look in comparison to the world? How do we enrich mobile games market? What statistics are there concerning mobile game development and employment in each of the countries and in the region as a whole? What are the organisations, both formal and informal, events and groups, that can support different types of developers and this industry in our region in general? And when the whole picture is drawn: how can each of us, as a developer, employee or / and hobbyist increase our value in this market and find connections that are worthwhile?",
+            "bio": "Quality assurance tester and Unity developer @Estoty games studio and a member of Latvian Game Developers Association."
           },
           {
             "id": "aygul",
