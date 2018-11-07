@@ -1,6 +1,6 @@
 +++
 title = "Fernando Cejas"
-date = 2018-07-10T15:05:30-04:00
+date = 2018-09-15T19:58:15+03:00
 draft = false
 outputs = ["html", "json"]
 

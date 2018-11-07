@@ -1,6 +1,6 @@
 +++
 title = "Svyatoslav Scherbina"
-date = 2018-09-10T19:58:15+03:00
+date = 2018-09-11T19:58:15+03:00
 draft = false
 outputs = ["html", "json"]
 
