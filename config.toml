@@ -15,7 +15,7 @@ theme = "falconf"
     facebook = "devfestbaltics"
 
 [params.sectionTickets]
-    enabled = true
+    enabled = false
     URL = "https://en.xing-events.com/DevFestBaltics2018.html"
 
 [params.sectionTalks]
