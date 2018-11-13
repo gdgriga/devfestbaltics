@@ -22,7 +22,12 @@
         "imageUrl": "/images/speakers/fernando-cejas.jpg"
       },
       {
-        "time": "11:15",
+        "time": "11:00",
+        "type": "PROCESS",
+        "title": "Coffee break & Networking"
+      },
+      {
+        "time": "11:20",
         "type": "THREE_TRACKS",
         "talks": [
           {
@@ -104,6 +109,11 @@
       },
       {
         "time": "13:30",
+        "type": "PROCESS",
+        "title": "Coffee break & Networking"
+      },
+      {
+        "time": "13:40",
         "type": "THREE_TRACKS",
         "talks": [
           {
@@ -135,7 +145,7 @@
         ]
       },
       {
-        "time": "14:30",
+        "time": "14:50",
         "type": "THREE_TRACKS",
         "talks": [
           {
@@ -167,7 +177,7 @@
         ]
       },
       {
-        "time": "15:45",
+        "time": "16:00",
         "type": "THREE_TRACKS",
         "talks": [
           {
@@ -198,7 +208,12 @@
         ]
       },
       {
-        "time": "17:15",
+        "time": "17:00",
+        "type": "PROCESS",
+        "title": "Coffee break & Networking"
+      },
+      {
+        "time": "17:20",
         "type": "THREE_TRACKS",
         "talks": [
           {
@@ -240,7 +255,12 @@
         ]
       },
       {
-        "time": "18:30",
+        "time": "18:20",
+        "type": "PROCESS",
+        "title": "Coffee break & Networking"
+      },
+      {
+        "time": "18:35",
         "type": "PROCESS",
         "title": "Closing"
       },
