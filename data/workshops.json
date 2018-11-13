@@ -7,7 +7,7 @@
     "url": "https://twitter.com/twostraws",
     "photo": "/images/speakers/paul-hudson.jpg",
     "description": "In this workshop you'll get hands-on examples of the most important patterns available to Swift developers, so you can try using them, re-using them, and refactoring them into your own work.",
-    "ticketEnabled": true,
+    "ticketEnabled": false,
     "ticketTitle": "Get ticket",
     "ticketUrl": "https://en.xing-events.com/DevFestBaltics2018.html"
   },
