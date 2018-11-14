@@ -53,15 +53,18 @@
             "bio": "Creator of 'Swift by Sundell' — weekly blog about Swift development."
           },
           {
-            "id": "marcos",
+            "id": "aygul",
             "track": "General",
-            "title": "These are a few of my favourite (Android) Things",
-            "speaker": "Marcos Placona",
-            "firstName": "Marcos",
-            "twitter": "marcos_placona",
-            "imageUrl": "/images/speakers/marcos-placona.png",
-            "description": "Android Things lets you build professional, mass-market products on a trusted platform without previous knowledge of embedded systems. It is estimated that by 2020 there will be 50 billion connected things.\nBut what does it take to get started with Android Things and be able to say you’re truly working with the Internet of Things? How can you learn this platform and get ahead of the IoT revolution using your existing Android skills?\nIn this session, we will explore what Android Things is and how you can get started building real-life IoT applications with your existing Android knowledge.\nWe will then build an Android Things application using a Android Studio - the IDE you already use and love and a few components.",
-            "bio": "Marcos is a developer evangelist at Twilio and a GDE. He serves communities in London and all over Europe. He is passionate about technology and security and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices."
+            "title": "Integrating Your Android Apps with the Google Assistant",
+            "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
+            "firstName": "Aygul and Kaan",
+            "manyTwitters": [
+              "aygul",
+              "kaanmamikoglu"
+            ],
+            "imageUrl": "/images/speakers/aygul-kaan.png",
+            "description": "Google Assistant is now available on over 500 million devices around the world. It enables you to engage with your new and existing users in completely new ways — through the rich contextual, conversational, and inter-modal experiences. As an Android developer, you can use the same development mechanism that you use for App Actions to create conversational actions to bring your service to the new smart devices. In this talk, you’ll learn how to integrate your Android app with the Google Assistant to reach new users and serve existing ones better. We’ll cover adding conversational functionality to your projects, defining custom grammars, and participating in vertical programs.",
+            "bio": "Dr. Aygul Zagidullina is a passionate Actions on Google developer. She is a Director of Social Media at MotaWord. Previously, Aygul worked at Todoist and Google. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world."
           }
         ]
       },
@@ -94,7 +97,7 @@
           {
             "id": "juhani",
             "track": "General",
-            "title": "How To Bring A Product To Reality In A Few Days: Design-Dev Cooperation And Fast Android Prototyping",
+            "title": "How To Bring A Product To Reality In A Few Days: Design-Dev Cooperation And Fast Prototyping",
             "speaker": "Juhani Lehtimäki & Pierluigi Rufo",
             "firstName": "Juhani & Pierluigi",
             "manyTwitters": [
@@ -132,15 +135,15 @@
             "bio": "Yoichi is the original author of Swinject, which is the first and most popular dependency injection framework written in and for Swift. He is an iOS engineer and engineering manager at Mercari, which provides a marketplace app for anyone to buy and sell items in US, UK and Japan."
           },
           {
-            "id": "caner",
+            "id": "svyatoslav",
             "track": "General",
-            "title": "Can The Material Design Live Long And Prosper?",
-            "speaker": "R. Caner Yildirim",
-            "firstName": "Caner",
-            "twitter": "protechman",
-            "imageUrl": "/images/speakers/resul.jpg",
-            "description": "We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology & science.” This is what Google said when they released MD in 2014.Since then MD evolved pretty well.How can MD adapt for future?",
-            "bio": "Caner is a UX designer who is also a technology geek. Mainly focused on the design, business strategy and marketing of mobile applications. Passionate about good UX, IoT, and Android. Previously he worked for leading companies of Turkey on mobile projects. Today, he is the founder of Artisan UX a design agency based in Istanbul making and creating apps that users love. Caner has been a user group leader at GDG Istanbul since 2013, organizing, participating, and speaking at events. He shares his experience in User Research, Interaction Design and UX Strategy via talks or workshops at Droidcons, DevFests, and other conferences."
+            "title": "Using Kotlin to share code between iOS and Android",
+            "speaker": "Svyatoslav Scherbina",
+            "firstName": "Svyatoslav",
+            "twitter": "",
+            "imageUrl": "/images/speakers/svjatoslav.png",
+            "description": "This talk is devoted to using Kotlin to share code between Android and iOS. It also covers Kotlin features and evolution making this possible and convenient. Kotlin Multiplatform Programming is a technology for multiplatform programming in Kotlin. It supports combining both common and platform-specific code in a single codebase with proper tooling enabled. Kotlin/Native is a technology for compiling Kotlin code to native binaries. Kotlin code has seamless interoperability with native platform (e.g. iOS) in this case. The speaker will describe how Kotlin/Native works, what is supported and what is not.",
+            "bio": "Svyatoslav Scherbina is a developer interested in programming languages design and implementation. Currently he works as software developer on Kotlin/Native project at JetBrains and appears to be responsible for bridging Kotlin and iOS worlds. Previously he used to work at Excelsior LLC on Excelsior JET project, certified Java SE implementation with AOT compiler."
           }
         ]
       },
@@ -217,19 +220,30 @@
         "type": "THREE_TRACKS",
         "talks": [
           {
-            "id": "svyatoslav",
+            "id": "marcos",
             "track": "Android",
-            "title": "Using Kotlin to share code between iOS and Android",
-            "speaker": "Svyatoslav Scherbina",
-            "firstName": "Svyatoslav",
-            "twitter": "",
-            "imageUrl": "/images/speakers/svjatoslav.png",
-            "description": "This talk is devoted to using Kotlin to share code between Android and iOS. It also covers Kotlin features and evolution making this possible and convenient. Kotlin Multiplatform Programming is a technology for multiplatform programming in Kotlin. It supports combining both common and platform-specific code in a single codebase with proper tooling enabled. Kotlin/Native is a technology for compiling Kotlin code to native binaries. Kotlin code has seamless interoperability with native platform (e.g. iOS) in this case. The speaker will describe how Kotlin/Native works, what is supported and what is not.",
-            "bio": "Svyatoslav Scherbina is a developer interested in programming languages design and implementation. Currently he works as software developer on Kotlin/Native project at JetBrains and appears to be responsible for bridging Kotlin and iOS worlds. Previously he used to work at Excelsior LLC on Excelsior JET project, certified Java SE implementation with AOT compiler."
+            "title": "I just hacked your app",
+            "speaker": "Marcos Placona",
+            "firstName": "Marcos",
+            "twitter": "marcos_placona",
+            "imageUrl": "/images/speakers/marcos-placona.png",
+            "description": "Android security is nowhere near where it should be. I have been able to hack and get sensitive information from a few different apps and I’m just an amateur hacker at best. In this session we will explore a number of ways an Android app can be exploited and most importantly methods that we can use to avoid these attacks.",
+            "bio": "Marcos is a developer evangelist at Twilio and a GDE. He serves communities in London and all over Europe. He is passionate about technology and security and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices."
+          },
+          {
+            "id": "marcin-k",
+            "track": "iOS",
+            "title": "How to build online swift compiler, using available tools found on stack overflow",
+            "speaker": "Marcin Krzyzanowski",
+            "firstName": "Marcin",
+            "twitter": "krzyzanowskim",
+            "imageUrl": "/images/speakers/marcin-krzyzanowski.jpg",
+            "description": "How to build online swift compiler., using available tools found on stack overflow, a case study of http://online.swiftplayground.run/",
+            "bio": "After programming for several years, Marcin enjoys working on mobile technologies and cryptography, more than in enterprise business solutions. He has worked on multiple projects with various technologies, currently working on a PDF framework at PSPDFKit. He recently combined his passions, working with CryptoSwift for Apple’s new Swift language. With a head full of ideas, in his spare time, he develops and launches new projects including Online Swift Playground, ObjectivePGP, and contributes himself back to the OSS community"
           },
           {
             "id": "laura",
-            "track": "iOS",
+            "track": "General",
             "title": "Mobile Game Development in Baltics: statistics and opportunities",
             "speaker": "Laura Vilsone",
             "firstName": "Laura",
@@ -237,20 +251,6 @@
             "imageUrl": "/images/speakers/laura.jpg",
             "description": "Baltics in mobile game development: How do we look in comparison to the world? How do we enrich mobile games market? What statistics are there concerning mobile game development and employment in each of the countries and in the region as a whole? What are the organisations, both formal and informal, events and groups, that can support different types of developers and this industry in our region in general? And when the whole picture is drawn: how can each of us, as a developer, employee or / and hobbyist increase our value in this market and find connections that are worthwhile?",
             "bio": "Quality assurance tester and Unity developer @Estoty games studio and a member of Latvian Game Developers Association."
-          },
-          {
-            "id": "aygul",
-            "track": "General",
-            "title": "Integrating Your Android Apps with the Google Assistant",
-            "speaker": "Aygul Zagidullina & Kaan Mamikoglu",
-            "firstName": "Aygul and Kaan",
-            "manyTwitters": [
-              "aygul",
-              "kaanmamikoglu"
-            ],
-            "imageUrl": "/images/speakers/aygul-kaan.png",
-            "description": "Google Assistant is now available on over 500 million devices around the world. It enables you to engage with your new and existing users in completely new ways — through the rich contextual, conversational, and inter-modal experiences. As an Android developer, you can use the same development mechanism that you use for App Actions to create conversational actions to bring your service to the new smart devices. In this talk, you’ll learn how to integrate your Android app with the Google Assistant to reach new users and serve existing ones better. We’ll cover adding conversational functionality to your projects, defining custom grammars, and participating in vertical programs.",
-            "bio": "Dr. Aygul Zagidullina is a passionate Actions on Google developer. She is a Director of Social Media at MotaWord. Previously, Aygul worked at Todoist and Google. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world."
           }
         ]
       },
