@@ -1,7 +1,7 @@
 +++
 title = "Resul Caner Yildirim"
 date = 2018-09-14T19:58:15+03:00
-draft = false
+draft = true
 outputs = ["html", "json"]
 
 # All information about speaker
