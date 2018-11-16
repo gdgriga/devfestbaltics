@@ -242,15 +242,15 @@
             "bio": "After programming for several years, Marcin enjoys working on mobile technologies and cryptography, more than in enterprise business solutions. He has worked on multiple projects with various technologies, currently working on a PDF framework at PSPDFKit. He recently combined his passions, working with CryptoSwift for Apple’s new Swift language. With a head full of ideas, in his spare time, he develops and launches new projects including Online Swift Playground, ObjectivePGP, and contributes himself back to the OSS community"
           },
           {
-            "id": "laura",
+            "id": "aygul-2",
             "track": "General",
-            "title": "Mobile Game Development in Baltics: statistics and opportunities",
-            "speaker": "Laura Vilsone",
-            "firstName": "Laura",
-            "twitter": "",
-            "imageUrl": "/images/speakers/laura.jpg",
-            "description": "Baltics in mobile game development: How do we look in comparison to the world? How do we enrich mobile games market? What statistics are there concerning mobile game development and employment in each of the countries and in the region as a whole? What are the organisations, both formal and informal, events and groups, that can support different types of developers and this industry in our region in general? And when the whole picture is drawn: how can each of us, as a developer, employee or / and hobbyist increase our value in this market and find connections that are worthwhile?",
-            "bio": "Quality assurance tester and Unity developer @Estoty games studio and a member of Latvian Game Developers Association."
+            "title": "Building for the Google Assistant: Voice First vs. Screen First",
+            "speaker": "Aygul Zagidullina",
+            "firstName": "Aygul",
+            "twitter": "aygul",
+            "imageUrl": "/images/speakers/aygul.png",
+            "description": "Learn to build for voice first so you can easily surprise and delight your users on hundreds of millions of devices through the Google Assistant. Let’s be honest: it's quite easy to be tempted to take an existing visual-based experience and simply convert it to voice. In this talk, we’ll cover five key ways voice-first development differs from screen-first development. You’ll learn how to create engaging experiences for voice, the next major disruption in computing. By the end of this session, you should have a better understanding of what types of use cases transfer well to voice interactions and why.",
+            "bio": "Dr. Aygul Zagidullina is a passionate Actions on Google developer. She is a Director of Social Media at MotaWord. Previously, Aygul worked at Todoist and Google. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead."
           }
         ]
       },
