@@ -45,6 +45,12 @@
       "logoUrl": "/images/partners/ubnt.png",
       "link": "https://www.ubnt.com/",
       "width": "50%"
+    },
+    {
+      "name": "Manning",
+      "logoUrl": "/images/partners/manning.png",
+      "link": "https://www.manning.com/",
+      "width": "100%"
     }
   ],
   "media": [
